@@ -1,0 +1,35 @@
+title = "Jesstern's notes"
+theme = "anubis"
+baseUrl = ""
+paginate = 10
+languageCode = "en-us"
+publishDir = "docs"
+
+[params]
+  author = "Jesstern Rays"
+  description = "Jesstern's notes"
+  dateFormat = "2006-01-02"
+  paginationSinglePost = true
+  style = "dark-without-switcher"
+  readMore = false
+
+[menu]
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    identifier = "categories"
+    url = "/categories/"
+    weight = 2
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = true
