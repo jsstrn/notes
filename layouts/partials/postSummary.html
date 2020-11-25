@@ -4,7 +4,7 @@
     </header>
 
     <div class="content post-summary">
-        {{ .Params.summary }}
+        {{ .Params.summary | safeHTML }}
     </div>
     {{ if and (.Truncated) (.Site.Params.readMore) }}
         <div class="read-more">
