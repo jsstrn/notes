@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+
+    
+
+<html lang="en-us" data-theme="dark">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Check if a variable is null or undefined in JavaScript - Jesstern&#39;s notes</title>
+<meta name="description" content="Jesstern&#39;s notes">
+
+<link rel="icon" type="image/x-icon" href="https://jsstrn.github.io/notes/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://jsstrn.github.io/notes/favicon.png">
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="https://jsstrn.github.io/notes/css/style.8c8ab81054d9f1ef6cc94f6ba5a3fd5de347f1b05b946257d9efa94c3f01a72f.css" integrity="sha256-jIq4EFTZ8e9syU9rpaP9XeNH8bBblGJX2e&#43;pTD8Bpy8=">
+    
+
+
+
+
+
+
+
+<meta property="og:title" content="Check if a variable is null or undefined in JavaScript" />
+<meta property="og:description" content="We can use strict equality to check if a variable is null or undefined in JavaScript.
+if (value === null || value === undefined) { // value is either null or undefined } What I also found interesting is that although the regular equality in JavaScript is generally frowned upon, these two conditions are exactly identical. Of course, in general I would still prefer to use the code above as it is explicit in its intent." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jsstrn.github.io/notes/notes/check-variable-null-undefined/" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Check if a variable is null or undefined in JavaScript"/>
+<meta name="twitter:description" content="We can use strict equality to check if a variable is null or undefined in JavaScript.
+if (value === null || value === undefined) { // value is either null or undefined } What I also found interesting is that although the regular equality in JavaScript is generally frowned upon, these two conditions are exactly identical. Of course, in general I would still prefer to use the code above as it is explicit in its intent."/>
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <h1 class="site-title">
+    <a href="/notes">Jesstern&#39;s notes</a>
+</h1>
+
+    <nav>
+        
+        
+        <a class="" href="https://jsstrn.github.io/notes/tags/" title="">Tags</a>
+        
+        <a class="" href="https://jsstrn.github.io/notes/categories/" title="">Categories</a>
+        
+    </nav>
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+    
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">Check if a variable is null or undefined in JavaScript</h1>
+        </header>
+        <div class="content">
+            <p>We can use strict equality to check if a variable is null or undefined in JavaScript.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">value</span> <span style="color:#f92672">===</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">value</span> <span style="color:#f92672">===</span> <span style="color:#66d9ef">undefined</span>) {
+  <span style="color:#75715e">// value is either null or undefined
+</span><span style="color:#75715e"></span>}
+</code></pre></div><p>What I also found interesting is that although the regular equality in JavaScript is generally frowned upon, these two conditions are exactly identical. Of course, in general I would still prefer to use the code above as it is explicit in its intent.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">value</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span>) {
+  <span style="color:#75715e">// value is either null or undefined
+</span><span style="color:#75715e"></span>}
+</code></pre></div><p>Also, have a look at JavaScript&rsquo;s <a href="/notes/javascript-equality-table/">equality table</a>.</p>
+
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://jsstrn.github.io/notes/categories/">developer</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://jsstrn.github.io/notes/tags/javascript">#javascript</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+        
+    <div class="pagination post-pagination">
+        <div class="left pagination-item disabled">
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/notes/notes/git-status/">Check the status of a Git repository</a>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+        <div class="copyright">
+            <p>© Jesstern Rays, 2020<br>
+            Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+            </p>  
+        </div> 
+
+        
+
+    
+
+
+   
+    </div>
+</footer>
+
+        
+    </div>
+</body>
+</html>

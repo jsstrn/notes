@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Jesstern&#39;s notes</title>
+    <link>https://jsstrn.github.io/notes/tags/javascript/</link>
+    <description>Jesstern&#39;s notes (javascript)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="https://jsstrn.github.io/notes/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Check if a variable is null or undefined in JavaScript</title>
+      <link>https://jsstrn.github.io/notes/notes/check-variable-null-undefined/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsstrn.github.io/notes/notes/check-variable-null-undefined/</guid>
+      <description>&lt;p&gt;We can use strict equality to check if a variable is null or undefined in JavaScript.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;null&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;undefined&lt;/span&gt;) {
+  &lt;span style=&#34;color:#75715e&#34;&gt;// value is either null or undefined
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;What I also found interesting is that although the regular equality in JavaScript is generally frowned upon, these two conditions are exactly identical. Of course, in general I would still prefer to use the code above as it is explicit in its intent.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;null&lt;/span&gt;) {
+  &lt;span style=&#34;color:#75715e&#34;&gt;// value is either null or undefined
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Also, have a look at JavaScript&amp;rsquo;s &lt;a href=&#34;https://jsstrn.github.io/notes/notes/javascript-equality-table/&#34;&gt;equality table&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JavaScript equality table</title>
+      <link>https://jsstrn.github.io/notes/notes/javascript-equality-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsstrn.github.io/notes/notes/javascript-equality-table/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a handy resource of the &lt;a href=&#34;https://dorey.github.io/JavaScript-Equality-Table/&#34;&gt;equality table&lt;/a&gt; in JavaScript.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

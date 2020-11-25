@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>resource on Jesstern&#39;s notes</title>
+    <link>https://jsstrn.github.io/notes/tags/resource/</link>
+    <description>Jesstern&#39;s notes (resource)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="https://jsstrn.github.io/notes/tags/resource/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript equality table</title>
+      <link>https://jsstrn.github.io/notes/notes/javascript-equality-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsstrn.github.io/notes/notes/javascript-equality-table/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a handy resource of the &lt;a href=&#34;https://dorey.github.io/JavaScript-Equality-Table/&#34;&gt;equality table&lt;/a&gt; in JavaScript.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
