@@ -4,7 +4,7 @@ Jesstern's notes
 
 ## Development
 
-Run the server locally and head to http://localhost:1313/ 
+Run the server locally and head to [http://localhost:1313/notes](http://localhost:1313/notes)
 
 ```bash
 hugo serve
@@ -18,7 +18,7 @@ hugo serve -D
 
 ## Add new content
 
-All content is located in the `content` directory. To create a new post in `content/notes`, run 
+All content is located in the `content` directory. To create a new post in `content/notes`, run
 
 ```bash
 hugo new notes/my-first-note.md
@@ -28,7 +28,7 @@ This will add "My first note" as the tile in the front matter of your post. To c
 
 ## Deploy to production
 
-Build the project into the `public` directory
+Build the project into the `docs` directory (or whichever directory is stated in `publishDir` in `config.toml`)
 
 ```bash
 hugo
@@ -52,7 +52,7 @@ theme = "theme-name"
 
 ## Customizing a theme
 
-To customize a theme, we copy the files we want to edit into our own root folder (keeping the same folder structure). We do not edit the files directly in the theme. 
+To customize a theme, we copy the files we want to edit into our own root folder (keeping the same folder structure). We do not edit the files directly in the theme.
 
 ## Getting help
 
