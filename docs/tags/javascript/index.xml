@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>javascript on Jesstern&#39;s notes</title>
-    <link>https://jsstrn.me/notes/tags/javascript/</link>
+    <link>https://notes.jsstrn.me/tags/javascript/</link>
     <description>Jesstern&#39;s notes (javascript)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-    <atom:link href="https://jsstrn.me/notes/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notes.jsstrn.me/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Is it null or undefined?</title>
-      <link>https://jsstrn.me/notes/notes/check-variable-null-undefined/</link>
+      <link>https://notes.jsstrn.me/notes/check-variable-null-undefined/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jsstrn.me/notes/notes/check-variable-null-undefined/</guid>
+      <guid>https://notes.jsstrn.me/notes/check-variable-null-undefined/</guid>
       <description>&lt;p&gt;We can use strict equality to check if a variable is null or undefined in JavaScript.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;null&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;undefined&lt;/span&gt;) {
   &lt;span style=&#34;color:#75715e&#34;&gt;// value is either null or undefined
@@ -30,10 +30,10 @@
     
     <item>
       <title>JavaScript equality table</title>
-      <link>https://jsstrn.me/notes/notes/javascript-equality-table/</link>
+      <link>https://notes.jsstrn.me/notes/javascript-equality-table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jsstrn.me/notes/notes/javascript-equality-table/</guid>
+      <guid>https://notes.jsstrn.me/notes/javascript-equality-table/</guid>
       <description>&lt;p&gt;Use strict equality always and here&amp;rsquo;s a good illustration why – JavaScript&amp;rsquo;s &lt;a href=&#34;https://dorey.github.io/JavaScript-Equality-Table/&#34;&gt;equality table&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
