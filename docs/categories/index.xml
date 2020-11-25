@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jesstern&#39;s notes</title>
-    <link>https://notes.jsstrn.me/categories/</link>
+    <link>https://jsstrn.me/notes/categories/</link>
     <description>Jesstern&#39;s notes (Categories)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-    <atom:link href="https://notes.jsstrn.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jsstrn.me/notes/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

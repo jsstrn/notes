@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Jesstern&#39;s notes</title>
-    <link>https://notes.jsstrn.me/notes/</link>
+    <link>https://jsstrn.me/notes/notes/</link>
     <description>Jesstern&#39;s notes (Notes)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-    <atom:link href="https://notes.jsstrn.me/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jsstrn.me/notes/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git status</title>
-      <link>https://notes.jsstrn.me/notes/git-status/</link>
+      <link>https://jsstrn.me/notes/notes/git-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/git-status/</guid>
+      <guid>https://jsstrn.me/notes/notes/git-status/</guid>
       <description>&lt;p&gt;To check the status of the Git repository.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git status
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We can see a &lt;code&gt;--short&lt;/code&gt; or &lt;code&gt;-s&lt;/code&gt; version with this command.&lt;/p&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>Is it null or undefined?</title>
-      <link>https://notes.jsstrn.me/notes/check-variable-null-undefined/</link>
+      <link>https://jsstrn.me/notes/notes/check-variable-null-undefined/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/check-variable-null-undefined/</guid>
+      <guid>https://jsstrn.me/notes/notes/check-variable-null-undefined/</guid>
       <description>&lt;p&gt;We can use strict equality to check if a variable is null or undefined in JavaScript.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;null&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;undefined&lt;/span&gt;) {
   &lt;span style=&#34;color:#75715e&#34;&gt;// value is either null or undefined
@@ -45,10 +45,10 @@
     
     <item>
       <title>JavaScript equality table</title>
-      <link>https://notes.jsstrn.me/notes/javascript-equality-table/</link>
+      <link>https://jsstrn.me/notes/notes/javascript-equality-table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/javascript-equality-table/</guid>
+      <guid>https://jsstrn.me/notes/notes/javascript-equality-table/</guid>
       <description>&lt;p&gt;Use strict equality always and here&amp;rsquo;s a good illustration why – JavaScript&amp;rsquo;s &lt;a href=&#34;https://dorey.github.io/JavaScript-Equality-Table/&#34;&gt;equality table&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
