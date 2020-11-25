@@ -36,16 +36,6 @@ hugo
 
 Then commit and push to [deploy your site to GitHub Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-of-project-pages-from-docs-folder-on-main-branch).
 
-## Getting help
-
-To get help with any of the commands from the `hugo` cli tool.
-
-```bash
-hugo <command> --help
-```
-
-Otherwise, read their [documentation](https://gohugo.io/documentation/).
-
 ## Installing a theme
 
 Select a [Hugo theme](https://themes.gohugo.io/) and run the following command
@@ -59,3 +49,17 @@ Then go to `config.toml` and update the theme name
 ```toml
 theme = "theme-name"
 ```
+
+## Customizing a theme
+
+To customize a theme, we copy the files we want to edit into our own root folder (keeping the same folder structure). We do not edit the files directly in the theme. 
+
+## Getting help
+
+To get help with any of the commands from the `hugo` cli tool.
+
+```bash
+hugo <command> --help
+```
+
+Otherwise, read their [documentation](https://gohugo.io/documentation/).
