@@ -26,9 +26,15 @@ hugo new notes/my-first-note.md
 
 This will add "My first note" as the tile in the front matter of your post. To change what gets generated in the front matter, refer to documentation on [archetypes](https://gohugo.io/content-management/archetypes/#readout).
 
-## Deploy to production
+## Publish
 
-Build the project into the `docs` directory (or whichever directory is stated in `publishDir` in `config.toml`)
+The entire publish step can be completed by running this script
+
+```bash
+./publish
+```
+
+Build the project into the `docs` directory (or whichever directory is designated in `publishDir` in `config.toml`)
 
 ```bash
 hugo
