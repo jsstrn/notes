@@ -1,6 +1,6 @@
 title = "Jesstern's notes"
 theme = "anubis"
-baseUrl = "https://jsstrn.github.io/notes/"
+baseUrl = "https://notes.jsstrn.me"
 paginate = 10
 languageCode = "en-us"
 publishDir = "docs"
