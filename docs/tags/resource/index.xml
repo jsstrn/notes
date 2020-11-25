@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jsstrn.github.io/notes/notes/javascript-equality-table/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s a handy resource of the &lt;a href=&#34;https://dorey.github.io/JavaScript-Equality-Table/&#34;&gt;equality table&lt;/a&gt; in JavaScript.&lt;/p&gt;
+      <description>&lt;p&gt;Use strict equality always and here&amp;rsquo;s a good illustration why – JavaScript&amp;rsquo;s &lt;a href=&#34;https://dorey.github.io/JavaScript-Equality-Table/&#34;&gt;equality table&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
