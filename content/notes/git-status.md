@@ -1,7 +1,7 @@
 ---
 title: "Git status"
 summary: "Check the status of a Git repository"
-categories: ["developer"]
+categories: ["development"]
 tags: ["git"]
 ---
 

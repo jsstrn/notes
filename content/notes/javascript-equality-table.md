@@ -1,7 +1,7 @@
 ---
 title: "JavaScript equality table"
 summary: "Why you should always use strict equality"
-categories: ["developer"]
+categories: ["development"]
 tags: ['javascript', 'resource']
 ---
 

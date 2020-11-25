@@ -1,7 +1,7 @@
 ---
 title: "Is it null or undefined?"
 summary: "Check if a variable is null or undefined in JavaScript"
-categories: ["developer"]
+categories: ["development"]
 tags: ["javascript"]
 ---
 
