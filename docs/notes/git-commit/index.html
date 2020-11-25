@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+
+    
+
+<html lang="en-us" data-theme="dark">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>View changes before committing - Jesstern&#39;s notes</title>
+<meta name="description" content="Jesstern&#39;s notes">
+
+<link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://notes.jsstrn.me/favicon.png">
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="https://notes.jsstrn.me/css/style.8c8ab81054d9f1ef6cc94f6ba5a3fd5de347f1b05b946257d9efa94c3f01a72f.css" integrity="sha256-jIq4EFTZ8e9syU9rpaP9XeNH8bBblGJX2e&#43;pTD8Bpy8=">
+    
+
+
+
+
+
+
+
+<meta property="og:title" content="View changes before committing" />
+<meta property="og:description" content="Review code changes with &ndash;patch before staging and committing" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/git-commit/" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="View changes before committing"/>
+<meta name="twitter:description" content="Review code changes with &ndash;patch before staging and committing"/>
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <h1 class="site-title">
+    <a href="/">Jesstern&#39;s notes</a>
+</h1>
+
+    <nav>
+        
+        
+        <a class="" href="https://notes.jsstrn.me/tags/" title="">Tags</a>
+        
+        <a class="" href="https://notes.jsstrn.me/categories/" title="">Categories</a>
+        
+    </nav>
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+    
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">View changes before committing</h1>
+        </header>
+        <div class="content">
+            <p>Avoid blindly staging code with <code>git add --all</code> or <code>git add .</code> as you may accidentally stage and commit code that you didn&rsquo;t intend to.</p>
+<p>I prefer to use <code>--patch</code> or <code>-p</code> when adding code to staging. This allows you to go through your changes and review them by hunks.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add -p
+</code></pre></div><p>Since new files are not tracked they will not show up in <code>--patch</code> so you have to use <code>--intent-to-add</code> or <code>-N</code> to track those files before you can use <code>--patch</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add -N &lt;new-filename&gt;
+git add -p
+</code></pre></div><p>You will see changes marked with <code>+</code> or <code>-</code> to indicate if code has been added or deleted. You&rsquo;ll be prompted as such.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>1/1<span style="color:#f92672">)</span> Stage this hunk <span style="color:#f92672">[</span>y,n,q,a,d,e,?<span style="color:#f92672">]</span>?
+</code></pre></div><p>Typically, you reply with <code>y</code> to stage the hunk or <code>n</code> to ignore it. Sometimes we want to stage the entire file without looking at the remaining hunks in the file, we can do this with <code>a</code>. This is useful for files like <code>package-lock.json</code>.</p>
+<p>We can manually edit <code>e</code> which lines to add or remove in each hunk. When in edit mode you will make your changes in <code>vim</code>. To remove <code>'+'</code> lines just delete them. To remove <code>'-'</code> lines, just change them to <code>' '</code>.</p>
+<p>Use <code>?</code> to display this help screen if you ever forget what the commands stand for.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">y - stage this hunk
+n - <span style="color:#66d9ef">do</span> not stage this hunk
+q - quit; <span style="color:#66d9ef">do</span> not stage this hunk or any of the remaining ones
+a - stage this hunk and all later hunks in the file
+d - <span style="color:#66d9ef">do</span> not stage this hunk or any of the later hunks in the file
+e - manually edit the current hunk
+? - print help
+</code></pre></div><p>Once you have reviewed all your changes. You can commit your changes as usual.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git commit -m <span style="color:#e6db74">&#34;Some meaningful commit message&#34;</span>
+</code></pre></div>
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://notes.jsstrn.me/categories/">development</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/git">#git</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+        
+    <div class="pagination post-pagination">
+        <div class="left pagination-item ">
+            
+                <a href="/notes/javascript-equality-table/">JavaScript equality table</a>
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/notes/git-diff/">View code changes</a>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+        <div class="copyright">
+            <p>© Jesstern Rays | 2020</p>
+        </div>
+
+        
+
+    
+
+
+
+    </div>
+</footer>
+        
+    </div>
+</body>
+</html>

@@ -15,6 +15,10 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/notes/git-alias/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/notes/git-status/</loc>
   </url>
   
@@ -44,6 +48,14 @@
   
   <url>
     <loc>https://notes.jsstrn.me/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/git-commit/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/git-diff/</loc>
   </url>
   
 </urlset>

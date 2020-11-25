@@ -11,6 +11,23 @@
     
     
     <item>
+      <title>Git alias</title>
+      <link>https://notes.jsstrn.me/notes/git-alias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/git-alias/</guid>
+      <description>&lt;p&gt;To create an alias for &lt;code&gt;git checkout&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git config --global alias.co checkout
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you can run &lt;code&gt;git co&lt;/code&gt; instead of &lt;code&gt;git checout&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git co
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Some common aliases to consider adding&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git config --global alias.co checkout
+git config --global alias.st &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;status --short&amp;#34;&lt;/span&gt;
+git config --global alias.lg &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;log --oneline --graph&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Git status</title>
       <link>https://notes.jsstrn.me/notes/git-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -22,6 +39,54 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git status --short
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For convenience, you can add &lt;code&gt;git st&lt;/code&gt; as an alias.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git config --global alias.st &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;status --short&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>View changes before committing</title>
+      <link>https://notes.jsstrn.me/notes/git-commit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/git-commit/</guid>
+      <description>&lt;p&gt;Avoid blindly staging code with &lt;code&gt;git add --all&lt;/code&gt; or &lt;code&gt;git add .&lt;/code&gt; as you may accidentally stage and commit code that you didn&amp;rsquo;t intend to.&lt;/p&gt;
+&lt;p&gt;I prefer to use &lt;code&gt;--patch&lt;/code&gt; or &lt;code&gt;-p&lt;/code&gt; when adding code to staging. This allows you to go through your changes and review them by hunks.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git add -p
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Since new files are not tracked they will not show up in &lt;code&gt;--patch&lt;/code&gt; so you have to use &lt;code&gt;--intent-to-add&lt;/code&gt; or &lt;code&gt;-N&lt;/code&gt; to track those files before you can use &lt;code&gt;--patch&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git add -N &amp;lt;new-filename&amp;gt;
+git add -p
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You will see changes marked with &lt;code&gt;+&lt;/code&gt; or &lt;code&gt;-&lt;/code&gt; to indicate if code has been added or deleted. You&amp;rsquo;ll be prompted as such.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;1/1&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; Stage this hunk &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;y,n,q,a,d,e,?&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Typically, you reply with &lt;code&gt;y&lt;/code&gt; to stage the hunk or &lt;code&gt;n&lt;/code&gt; to ignore it. Sometimes we want to stage the entire file without looking at the remaining hunks in the file, we can do this with &lt;code&gt;a&lt;/code&gt;. This is useful for files like &lt;code&gt;package-lock.json&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We can manually edit &lt;code&gt;e&lt;/code&gt; which lines to add or remove in each hunk. When in edit mode you will make your changes in &lt;code&gt;vim&lt;/code&gt;. To remove &lt;code&gt;&#39;+&#39;&lt;/code&gt; lines just delete them. To remove &lt;code&gt;&#39;-&#39;&lt;/code&gt; lines, just change them to &lt;code&gt;&#39; &#39;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Use &lt;code&gt;?&lt;/code&gt; to display this help screen if you ever forget what the commands stand for.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;y - stage this hunk
+n - &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; not stage this hunk
+q - quit; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; not stage this hunk or any of the remaining ones
+a - stage this hunk and all later hunks in the file
+d - &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; not stage this hunk or any of the later hunks in the file
+e - manually edit the current hunk
+? - print help
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Once you have reviewed all your changes. You can commit your changes as usual.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Some meaningful commit message&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>View code changes</title>
+      <link>https://notes.jsstrn.me/notes/git-diff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/git-diff/</guid>
+      <description>&lt;p&gt;One way to review code changes that are unstaged is to use the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git diff
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note that untracked files will not be shown. You have to add untracked files before they will show up.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git add -N &amp;lt;untracked-file&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can also see a summary of what has changed with &lt;code&gt;--stat&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git diff --stat
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command is useful to check for trailing white space and merge conflict markers.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git diff --check
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can use this command if you&amp;rsquo;ve already staged your changes. This is useful before you make a commit.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git diff --staged
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
