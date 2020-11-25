@@ -1,5 +1,6 @@
 ---
-title: "Check if a variable is null or undefined in JavaScript"
+title: "Is it null or undefined?"
+summary: "Check if a variable is null or undefined in JavaScript"
 categories: ["developer"]
 tags: ["javascript"]
 ---
@@ -20,4 +21,4 @@ if (value == null) {
 }
 ```
 
-Also, have a look at JavaScript's [equality table](/notes/javascript-equality-table/).
+Also, have a look at the [equality table](https://dorey.github.io/JavaScript-Equality-Table/) in JavaScript.

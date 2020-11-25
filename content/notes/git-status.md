@@ -1,5 +1,6 @@
 ---
-title: "Check the status of a Git repository"
+title: "Git status"
+summary: "Check the status of a Git repository"
 categories: ["developer"]
 tags: ["git"]
 ---

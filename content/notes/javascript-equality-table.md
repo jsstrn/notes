@@ -1,7 +1,8 @@
 ---
 title: "JavaScript equality table"
+summary: "Why you should always use strict equality"
 categories: ["developer"]
 tags: ['javascript', 'resource']
 ---
 
-Here's a handy resource of the [equality table](https://dorey.github.io/JavaScript-Equality-Table/) in JavaScript.
+Use strict equality always and here's a good illustration why – JavaScript's [equality table](https://dorey.github.io/JavaScript-Equality-Table/).
