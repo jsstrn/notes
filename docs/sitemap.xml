@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://notes.jsstrn.me/tags/bash/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/bash-shebang/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/categories/</loc>
   </url>
   
@@ -44,6 +52,10 @@
   
   <url>
     <loc>https://notes.jsstrn.me/tags/resource/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/shebang/</loc>
   </url>
   
   <url>

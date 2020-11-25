@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+hugo
+git add .
+git commit -m 'Publish'
+git push

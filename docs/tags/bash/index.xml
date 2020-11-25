@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bash on Jesstern&#39;s notes</title>
+    <link>https://notes.jsstrn.me/tags/bash/</link>
+    <description>Jesstern&#39;s notes (bash)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="https://notes.jsstrn.me/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bash shebang</title>
+      <link>https://notes.jsstrn.me/notes/bash-shebang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/bash-shebang/</guid>
+      <description>&lt;p&gt;The way I remember it is hash &lt;code&gt;#&lt;/code&gt; and bang &lt;code&gt;!&lt;/code&gt; – hashbang &lt;code&gt;#!&lt;/code&gt; which sounds like &lt;code&gt;shebang&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a good idea to include a shebang &lt;code&gt;#!&lt;/code&gt; at the top of a Bash file. This is so that the sript runs correctly regardless of what shell the user is running.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Reference: &lt;a href=&#34;https://stackoverflow.com/questions/10376206/what-is-the-preferred-bash-shebang&#34;&gt;What is the preferred bash shebang&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

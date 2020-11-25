@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Git alias - Jesstern&#39;s notes</title>
+<title>Bash shebang - Jesstern&#39;s notes</title>
 <meta name="description" content="Jesstern&#39;s notes">
 
 <link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
@@ -40,15 +40,15 @@
 
 
 
-<meta property="og:title" content="Git alias" />
-<meta property="og:description" content="Add aliases to common Git commands" />
+<meta property="og:title" content="Bash shebang" />
+<meta property="og:description" content="Add a shebang to the top of your Bash scripts" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.jsstrn.me/notes/git-alias/" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/bash-shebang/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Git alias"/>
-<meta name="twitter:description" content="Add aliases to common Git commands"/>
+<meta name="twitter:title" content="Bash shebang"/>
+<meta name="twitter:description" content="Add a shebang to the top of your Bash scripts"/>
 
 
 
@@ -87,18 +87,14 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">Git alias</h1>
+            <h1 class="post-title">Bash shebang</h1>
         </header>
         <div class="content">
-            <p>To create an alias for <code>git checkout</code>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git config --global alias.co checkout
-</code></pre></div><p>Now you can run <code>git co</code> instead of <code>git checout</code>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git co
-</code></pre></div><p>Some common aliases to consider adding</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git config --global alias.co checkout
-git config --global alias.st <span style="color:#e6db74">&#34;status --short&#34;</span>
-git config --global alias.lg <span style="color:#e6db74">&#34;log --oneline --graph&#34;</span>
-</code></pre></div>
+            <p>The way I remember it is hash <code>#</code> and bang <code>!</code> – hashbang <code>#!</code> which sounds like <code>shebang</code>.</p>
+<p>It&rsquo;s a good idea to include a shebang <code>#!</code> at the top of a Bash file. This is so that the sript runs correctly regardless of what shell the user is running.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/usr/bin/env bash
+</span></code></pre></div><p>Reference: <a href="https://stackoverflow.com/questions/10376206/what-is-the-preferred-bash-shebang">What is the preferred bash shebang</a></p>
+
         </div>
         
 
@@ -118,7 +114,9 @@ git config --global alias.lg <span style="color:#e6db74">&#34;log --oneline --gr
             
                 <ul class="post-tags">
                     
-                        <li><a href="https://notes.jsstrn.me/tags/git">#git</a></li>
+                        <li><a href="https://notes.jsstrn.me/tags/bash">#bash</a></li>
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/shebang">#shebang</a></li>
                     
                 </ul>
         
@@ -130,14 +128,12 @@ git config --global alias.lg <span style="color:#e6db74">&#34;log --oneline --gr
     
         
     <div class="pagination post-pagination">
-        <div class="left pagination-item ">
-            
-                <a href="/notes/bash-shebang/">Bash shebang</a>
+        <div class="left pagination-item disabled">
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/notes/git-status/">Git status</a>
+                <a href="/notes/git-alias/">Git alias</a>
             
         </div>
     </div>
