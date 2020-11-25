@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
 hugo
-git add .
+git add docs/
 git commit -m 'Publish'
 git push
