@@ -4,7 +4,7 @@ Jesstern's notes
 
 ## Development
 
-Run the server locally and head to [http://localhost:1313/notes](http://localhost:1313/notes)
+Run the server locally and head to [http://localhost:1313](http://localhost:1313/notes)
 
 ```bash
 hugo serve
