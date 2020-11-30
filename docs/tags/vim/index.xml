@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on Jesstern&#39;s notes</title>
+    <link>https://notes.jsstrn.me/tags/vim/</link>
+    <description>Jesstern&#39;s notes (vim)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="https://notes.jsstrn.me/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Useful Vim commands</title>
+      <link>https://notes.jsstrn.me/notes/vim-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/vim-commands/</guid>
+      <description>&lt;h2 id=&#34;settings&#34;&gt;Settings&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;:set number&lt;/code&gt; – show line numbers&lt;/p&gt;
+&lt;h2 id=&#34;modes&#34;&gt;Modes&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Esc&lt;/code&gt; – command mode (default mode)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;i&lt;/code&gt; – insert mode (before cursor)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;a&lt;/code&gt; – insert mode (after cursor)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;v&lt;/code&gt; – visual mode to select text to &lt;code&gt;y&lt;/code&gt; (yank) or &lt;code&gt;d&lt;/code&gt; (delete) text&lt;/p&gt;
+&lt;h2 id=&#34;quiting-vim&#34;&gt;Quiting Vim&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;:q&lt;/code&gt; – quit&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:q!&lt;/code&gt; – quit without saving&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:wq&lt;/code&gt; – save and quit&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:ZZ&lt;/code&gt; – save and quit&lt;/p&gt;
+&lt;h2 id=&#34;undo-and-redo&#34;&gt;Undo and redo&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;u&lt;/code&gt; – undo the previous command&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;U&lt;/code&gt; – undo the whole line&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Ctrl + R&lt;/code&gt; – redo the previous command&lt;/p&gt;
+&lt;h2 id=&#34;copy-and-paste&#34;&gt;Copy and paste&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;yw&lt;/code&gt; – yank (copy) a word&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yy&lt;/code&gt; – yank (copy) the entire line&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;y$&lt;/code&gt; – yank from cursor position to end of line&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yG&lt;/code&gt; – yank from cursor position to end of file&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;p&lt;/code&gt; – to put or paste the text that was copied or deleted&lt;/p&gt;
+&lt;h2 id=&#34;delete&#34;&gt;Delete&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;x&lt;/code&gt; – delete a character&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;dw&lt;/code&gt; – delete word&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;dd&lt;/code&gt; – delete line&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;d$&lt;/code&gt; – delete from cursor to end of line&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cw&lt;/code&gt; – change word; this will delete the word and put you in &lt;code&gt;insert&lt;/code&gt; mode&lt;/p&gt;
+&lt;h2 id=&#34;navigation&#34;&gt;Navigation&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;h&lt;/code&gt; – move left&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;l&lt;/code&gt; – move right&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;j&lt;/code&gt; – move down&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;k&lt;/code&gt; – move down&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;0&lt;/code&gt; – move to start of line&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$&lt;/code&gt; – move to end of line&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;nG&lt;/code&gt; – move to line number where &lt;code&gt;n&lt;/code&gt; is the line number (e.g. &lt;code&gt;54G&lt;/code&gt; goes to line 54)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[[&lt;/code&gt; – move to start of file&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;]]&lt;/code&gt; – move to end of file&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

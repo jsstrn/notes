@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>JavaScript equality table - Jesstern&#39;s notes</title>
+<title>Watch for file changes as you run your tests - Jesstern&#39;s notes</title>
 <meta name="description" content="Jesstern&#39;s notes">
 
 <link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
@@ -40,15 +40,15 @@
 
 
 
-<meta property="og:title" content="JavaScript equality table" />
-<meta property="og:description" content="Why you should always use strict equality" />
+<meta property="og:title" content="Watch for file changes as you run your tests" />
+<meta property="og:description" content="How to run your tests as your files change in Jest" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.jsstrn.me/notes/javascript-equality-table/" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/run-jest-tests-watch/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="JavaScript equality table"/>
-<meta name="twitter:description" content="Why you should always use strict equality"/>
+<meta name="twitter:title" content="Watch for file changes as you run your tests"/>
+<meta name="twitter:description" content="How to run your tests as your files change in Jest"/>
 
 
 
@@ -87,10 +87,24 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">JavaScript equality table</h1>
+            <h1 class="post-title">Watch for file changes as you run your tests</h1>
         </header>
         <div class="content">
-            <p>Use strict equality always and here&rsquo;s a good illustration why – JavaScript&rsquo;s <a href="https://dorey.github.io/JavaScript-Equality-Table/">equality table</a>.</p>
+            <p>To watch for file changes and <strong>only</strong> run tests related to changed files. This requires that your project is a Git repository.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jest --watch
+</code></pre></div><p>To watch for file changes and run <strong>all</strong> tests. This does not require that your project be a Git repository.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jest --watchAll
+</code></pre></div><p>We often add this to our npm scripts</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#f92672">&#34;scripts&#34;</span>: {
+    <span style="color:#f92672">&#34;test&#34;</span>: <span style="color:#e6db74">&#34;jest&#34;</span>,
+    <span style="color:#f92672">&#34;test:watch&#34;</span>: <span style="color:#e6db74">&#34;jest --watch&#34;</span>
+  }
+}
+</code></pre></div><h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://jestjs.io/docs/en/cli.html#">Jest CLI documentation</a></li>
+</ul>
 
         </div>
         
@@ -111,9 +125,9 @@
             
                 <ul class="post-tags">
                     
-                        <li><a href="https://notes.jsstrn.me/tags/javascript">#javascript</a></li>
+                        <li><a href="https://notes.jsstrn.me/tags/jest">#jest</a></li>
                     
-                        <li><a href="https://notes.jsstrn.me/tags/resource">#resource</a></li>
+                        <li><a href="https://notes.jsstrn.me/tags/javascript">#javascript</a></li>
                     
                 </ul>
         
@@ -127,12 +141,12 @@
     <div class="pagination post-pagination">
         <div class="left pagination-item ">
             
-                <a href="/notes/check-variable-null-undefined/">Is it null or undefined?</a>
+                <a href="/notes/git-diff/">View code changes</a>
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/notes/jest-match-name-tests/">Run tests that match a describe block</a>
+                <a href="/notes/bash-shebang/">Which shebang to use to run Bash scripts?</a>
             
         </div>
     </div>

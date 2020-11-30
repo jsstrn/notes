@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+
+    
+
+<html lang="en-us" data-theme="dark">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Useful Vim commands - Jesstern&#39;s notes</title>
+<meta name="description" content="Jesstern&#39;s notes">
+
+<link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://notes.jsstrn.me/favicon.png">
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="https://notes.jsstrn.me/css/style.8c8ab81054d9f1ef6cc94f6ba5a3fd5de347f1b05b946257d9efa94c3f01a72f.css" integrity="sha256-jIq4EFTZ8e9syU9rpaP9XeNH8bBblGJX2e&#43;pTD8Bpy8=">
+    
+
+
+
+
+
+
+
+<meta property="og:title" content="Useful Vim commands" />
+<meta property="og:description" content="A list of the most commonly used Vim commands" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/vim-commands/" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Useful Vim commands"/>
+<meta name="twitter:description" content="A list of the most commonly used Vim commands"/>
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <h1 class="site-title">
+    <a href="/">Jesstern&#39;s notes</a>
+</h1>
+
+    <nav>
+        
+        
+        <a class="" href="https://notes.jsstrn.me/tags/" title="">Tags</a>
+        
+        <a class="" href="https://notes.jsstrn.me/categories/" title="">Categories</a>
+        
+    </nav>
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+    
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">Useful Vim commands</h1>
+        </header>
+        <div class="content">
+            <h2 id="settings">Settings</h2>
+<p><code>:set number</code> – show line numbers</p>
+<h2 id="modes">Modes</h2>
+<p><code>Esc</code> – command mode (default mode)</p>
+<p><code>i</code> – insert mode (before cursor)</p>
+<p><code>a</code> – insert mode (after cursor)</p>
+<p><code>v</code> – visual mode to select text to <code>y</code> (yank) or <code>d</code> (delete) text</p>
+<h2 id="quiting-vim">Quiting Vim</h2>
+<p><code>:q</code> – quit</p>
+<p><code>:q!</code> – quit without saving</p>
+<p><code>:wq</code> – save and quit</p>
+<p><code>:ZZ</code> – save and quit</p>
+<h2 id="undo-and-redo">Undo and redo</h2>
+<p><code>u</code> – undo the previous command</p>
+<p><code>U</code> – undo the whole line</p>
+<p><code>Ctrl + R</code> – redo the previous command</p>
+<h2 id="copy-and-paste">Copy and paste</h2>
+<p><code>yw</code> – yank (copy) a word</p>
+<p><code>yy</code> – yank (copy) the entire line</p>
+<p><code>y$</code> – yank from cursor position to end of line</p>
+<p><code>yG</code> – yank from cursor position to end of file</p>
+<p><code>p</code> – to put or paste the text that was copied or deleted</p>
+<h2 id="delete">Delete</h2>
+<p><code>x</code> – delete a character</p>
+<p><code>dw</code> – delete word</p>
+<p><code>dd</code> – delete line</p>
+<p><code>d$</code> – delete from cursor to end of line</p>
+<p><code>cw</code> – change word; this will delete the word and put you in <code>insert</code> mode</p>
+<h2 id="navigation">Navigation</h2>
+<p><code>h</code> – move left</p>
+<p><code>l</code> – move right</p>
+<p><code>j</code> – move down</p>
+<p><code>k</code> – move down</p>
+<p><code>0</code> – move to start of line</p>
+<p><code>$</code> – move to end of line</p>
+<p><code>nG</code> – move to line number where <code>n</code> is the line number (e.g. <code>54G</code> goes to line 54)</p>
+<p><code>[[</code> – move to start of file</p>
+<p><code>]]</code> – move to end of file</p>
+
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://notes.jsstrn.me/categories/">development</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/vim">#vim</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+        
+    <div class="pagination post-pagination">
+        <div class="left pagination-item ">
+            
+                <a href="/notes/shebang-origin/">The whole shebang</a>
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/notes/git-commit/">View changes before committing</a>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+        <div class="copyright">
+            <p>© Jesstern Rays | 2020</p>
+        </div>
+
+        
+
+    
+
+
+
+    </div>
+</footer>
+        
+    </div>
+</body>
+</html>

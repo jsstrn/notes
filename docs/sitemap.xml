@@ -3,15 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://notes.jsstrn.me/notes/git-alias/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/tags/bash/</loc>
   </url>
   
   <url>
-    <loc>https://notes.jsstrn.me/notes/bash-shebang/</loc>
+    <loc>https://notes.jsstrn.me/categories/</loc>
   </url>
   
   <url>
-    <loc>https://notes.jsstrn.me/categories/</loc>
+    <loc>https://notes.jsstrn.me/notes/git-status/</loc>
   </url>
   
   <url>
@@ -20,14 +24,6 @@
   
   <url>
     <loc>https://notes.jsstrn.me/tags/git/</loc>
-  </url>
-  
-  <url>
-    <loc>https://notes.jsstrn.me/notes/git-alias/</loc>
-  </url>
-  
-  <url>
-    <loc>https://notes.jsstrn.me/notes/git-status/</loc>
   </url>
   
   <url>
@@ -47,11 +43,19 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/tags/jest/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/notes/</loc>
   </url>
   
   <url>
     <loc>https://notes.jsstrn.me/tags/resource/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/jest-match-name-tests/</loc>
   </url>
   
   <url>
@@ -63,11 +67,31 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/notes/shebang-origin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/vim-commands/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/notes/git-commit/</loc>
   </url>
   
   <url>
     <loc>https://notes.jsstrn.me/notes/git-diff/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/vim/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/run-jest-tests-watch/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/bash-shebang/</loc>
   </url>
   
 </urlset>

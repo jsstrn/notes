@@ -11,13 +11,28 @@
     
     
     <item>
-      <title>Bash shebang</title>
+      <title>The whole shebang</title>
+      <link>https://notes.jsstrn.me/notes/shebang-origin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/shebang-origin/</guid>
+      <description>&lt;p&gt;This two character sequence &lt;code&gt;#!&lt;/code&gt; is called shebang. It is used in shell scripts to determine which interpreter should be used to run the script.&lt;/p&gt;
+&lt;p&gt;According to &lt;a href=&#34;https://en.wikipedia.org/wiki/Shebang_%28Unix%29#Etymology&#34;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The name shebang for the distinctive two characters may have come from an inexact contraction of SHArp bang or haSH bang, referring to the two typical Unix names for them. Another theory on the sh in shebang is that it is from the default shell sh, usually invoked with shebang.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I personally like to remember &lt;code&gt;#!&lt;/code&gt; as hash bang.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Which shebang to use to run Bash scripts?</title>
       <link>https://notes.jsstrn.me/notes/bash-shebang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://notes.jsstrn.me/notes/bash-shebang/</guid>
-      <description>&lt;p&gt;The way I remember it is hash &lt;code&gt;#&lt;/code&gt; and bang &lt;code&gt;!&lt;/code&gt; – hashbang &lt;code&gt;#!&lt;/code&gt; which sounds like &lt;code&gt;shebang&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s a good idea to include a shebang &lt;code&gt;#!&lt;/code&gt; at the top of a Bash file. This is so that the sript runs correctly regardless of what shell the user is running.&lt;/p&gt;
+      <description>&lt;p&gt;This two character sequence &lt;code&gt;#!&lt;/code&gt; is called shebang. It is used in shell scripts to determine which interpreter should be used to run the script.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a good idea to include a shebang &lt;code&gt;#!&lt;/code&gt; at the top of a Bash file. This is so that the sript runs correctly regardless of what shell the user is running. For example, if a user is using the zsh shell, the script would default to zsh syntax instead of the intended bash syntax. Adding a shebang prevents this issue.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Reference: &lt;a href=&#34;https://stackoverflow.com/questions/10376206/what-is-the-preferred-bash-shebang&#34;&gt;What is the preferred bash shebang&lt;/a&gt;&lt;/p&gt;
 </description>
