@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 hugo
 git add docs/
 git commit -m 'Publish'
