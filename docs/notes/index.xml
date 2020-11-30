@@ -54,6 +54,26 @@ git config --global alias.lg &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;
     </item>
     
     <item>
+      <title>Install Ruby on macOS</title>
+      <link>https://notes.jsstrn.me/notes/install-ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/install-ruby/</guid>
+      <description>&lt;p&gt;macOS comes with its own version of Ruby which will not allow you to install Gems. To start developing in Ruby, we first have to install our own version of Ruby.&lt;/p&gt;
+&lt;p&gt;It is generally recommended to use a version manager for Ruby, like &lt;code&gt;rbenv&lt;/code&gt; to manage different versions of Ruby in various projects.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;brew install rbenv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add this line to your &lt;code&gt;.zshrc&lt;/code&gt;. This will setup &lt;code&gt;rbenv&lt;/code&gt; including adding &lt;code&gt;rbenv&lt;/code&gt; to your &lt;code&gt;$PATH&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;rbenv init -&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;See list of stable Ruby versions to install&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;rbenv install -l
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Install the version of Ruby that you want&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;rbenv install &amp;lt;version&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;State which version of Ruby you want to use as the global version&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;rbenv global &amp;lt;version&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Is it null or undefined?</title>
       <link>https://notes.jsstrn.me/notes/check-variable-null-undefined/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -79,6 +99,30 @@ git config --global alias.lg &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;
       <guid>https://notes.jsstrn.me/notes/javascript-equality-table/</guid>
       <description>&lt;p&gt;Use strict equality always and here&amp;rsquo;s a good illustration why – JavaScript&amp;rsquo;s &lt;a href=&#34;https://dorey.github.io/JavaScript-Equality-Table/&#34;&gt;equality table&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Revert changes in Git</title>
+      <link>https://notes.jsstrn.me/notes/git-reset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/git-reset/</guid>
+      <description>&lt;p&gt;Move commits in C to staged&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;A - B - C &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;master&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+git reset --soft B
+A - B &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;master&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; 
+C is in staged
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Moved commits in C to unstaged&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;A - B - C &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;master&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+git reset B // same as doing git reset --mixed
+A - B &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;master&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; 
+C is in unstaged
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Remove commits in C along with any other unstaged changes. Exercise caution when doing this&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;A - B - C &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;master&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+git reset --hard B
+A - B &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;master&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; 
+C has been discarded
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>

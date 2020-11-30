@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Exit a Bash script on error - jsstrn &gt; notes</title>
+<title>Install Ruby on macOS - jsstrn &gt; notes</title>
 <meta name="description" content="Jesstern&#39;s notes">
 
 <link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
@@ -40,15 +40,15 @@
 
 
 
-<meta property="og:title" content="Exit a Bash script on error" />
-<meta property="og:description" content="How to exit a Bash script when any command fails" />
+<meta property="og:title" content="Install Ruby on macOS" />
+<meta property="og:description" content="How to install Ruby on macOS" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.jsstrn.me/notes/exit-bash-on-error/" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/install-ruby/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Exit a Bash script on error"/>
-<meta name="twitter:description" content="How to exit a Bash script when any command fails"/>
+<meta name="twitter:title" content="Install Ruby on macOS"/>
+<meta name="twitter:description" content="How to install Ruby on macOS"/>
 
 
 
@@ -87,11 +87,20 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">Exit a Bash script on error</h1>
+            <h1 class="post-title">Install Ruby on macOS</h1>
         </header>
         <div class="content">
-            <p>If we want a Bash script to stop executing the rest of the script when one of the commands fail, we can simply add <code>set -e</code> to the top of our script.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">set -e
+            <p>macOS comes with its own version of Ruby which will not allow you to install Gems. To start developing in Ruby, we first have to install our own version of Ruby.</p>
+<p>It is generally recommended to use a version manager for Ruby, like <code>rbenv</code> to manage different versions of Ruby in various projects.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install rbenv
+</code></pre></div><p>Add this line to your <code>.zshrc</code>. This will setup <code>rbenv</code> including adding <code>rbenv</code> to your <code>$PATH</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">eval <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>rbenv init -<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><p>See list of stable Ruby versions to install</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rbenv install -l
+</code></pre></div><p>Install the version of Ruby that you want</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rbenv install &lt;version&gt;
+</code></pre></div><p>State which version of Ruby you want to use as the global version</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rbenv global &lt;version&gt;
 </code></pre></div>
         </div>
         
@@ -112,7 +121,7 @@
             
                 <ul class="post-tags">
                     
-                        <li><a href="https://notes.jsstrn.me/tags/bash">#bash</a></li>
+                        <li><a href="https://notes.jsstrn.me/tags/ruby">#ruby</a></li>
                     
                 </ul>
         
@@ -126,12 +135,12 @@
     <div class="pagination post-pagination">
         <div class="left pagination-item ">
             
-                <a href="/notes/git-status/">Check the status of a Git repository</a>
+                <a href="/notes/exit-bash-on-error/">Exit a Bash script on error</a>
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/notes/install-ruby/">Install Ruby on macOS</a>
+                <a href="/notes/check-variable-null-undefined/">Is it null or undefined?</a>
             
         </div>
     </div>

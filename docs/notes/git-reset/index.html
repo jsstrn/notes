@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>JavaScript equality table - jsstrn &gt; notes</title>
+<title>Revert changes in Git - jsstrn &gt; notes</title>
 <meta name="description" content="Jesstern&#39;s notes">
 
 <link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
@@ -40,15 +40,15 @@
 
 
 
-<meta property="og:title" content="JavaScript equality table" />
-<meta property="og:description" content="Why you should always use strict equality" />
+<meta property="og:title" content="Revert changes in Git" />
+<meta property="og:description" content="How to reset changes in Git" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.jsstrn.me/notes/javascript-equality-table/" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/git-reset/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="JavaScript equality table"/>
-<meta name="twitter:description" content="Why you should always use strict equality"/>
+<meta name="twitter:title" content="Revert changes in Git"/>
+<meta name="twitter:description" content="How to reset changes in Git"/>
 
 
 
@@ -87,11 +87,25 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">JavaScript equality table</h1>
+            <h1 class="post-title">Revert changes in Git</h1>
         </header>
         <div class="content">
-            <p>Use strict equality always and here&rsquo;s a good illustration why – JavaScript&rsquo;s <a href="https://dorey.github.io/JavaScript-Equality-Table/">equality table</a>.</p>
-
+            <p>Move commits in C to staged</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">A - B - C <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span>
+git reset --soft B
+A - B <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span> 
+C is in staged
+</code></pre></div><p>Moved commits in C to unstaged</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">A - B - C <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span>
+git reset B // same as doing git reset --mixed
+A - B <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span> 
+C is in unstaged
+</code></pre></div><p>Remove commits in C along with any other unstaged changes. Exercise caution when doing this</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">A - B - C <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span>
+git reset --hard B
+A - B <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span> 
+C has been discarded
+</code></pre></div>
         </div>
         
 
@@ -111,9 +125,7 @@
             
                 <ul class="post-tags">
                     
-                        <li><a href="https://notes.jsstrn.me/tags/javascript">#javascript</a></li>
-                    
-                        <li><a href="https://notes.jsstrn.me/tags/resource">#resource</a></li>
+                        <li><a href="https://notes.jsstrn.me/tags/git">#git</a></li>
                     
                 </ul>
         
@@ -127,12 +139,12 @@
     <div class="pagination post-pagination">
         <div class="left pagination-item ">
             
-                <a href="/notes/check-variable-null-undefined/">Is it null or undefined?</a>
+                <a href="/notes/javascript-equality-table/">JavaScript equality table</a>
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/notes/git-reset/">Revert changes in Git</a>
+                <a href="/notes/jest-match-name-tests/">Run tests that match a describe block</a>
             
         </div>
     </div>
