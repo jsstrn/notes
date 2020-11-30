@@ -2,7 +2,7 @@
 title: "Watch for file changes as you run your tests"
 summary: "How to run your tests as your files change in Jest"
 categories: ["development"]
-tags: ["jest", "javascript]
+tags: ["jest", "javascript"]
 ---
 
 To watch for file changes and **only** run tests related to changed files. This requires that your project is a Git repository.
