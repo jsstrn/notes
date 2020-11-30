@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | humanize }}"
 summary: ""
-categories: [""]
+categories: ["development"]
 tags: [""]
 ---
 
