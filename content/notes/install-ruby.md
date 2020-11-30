@@ -1,6 +1,6 @@
 ---
 title: "Install Ruby on macOS"
-summary: "How to install Ruby on macOS"
+summary: "How to install Ruby on macOS with Homebrew and rbenv"
 categories: ["development"]
 tags: ["ruby", "rbenv"]
 ---
