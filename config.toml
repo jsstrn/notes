@@ -17,12 +17,12 @@ publishDir = "docs"
 
   [[menu.main]]
     identifier = "tags"
-    name = "Tags"
+    name = "tags"
     url = "/tags/"
     weight = 1
 
   [[menu.main]]
-    name = "Categories"
+    name = "categories"
     identifier = "categories"
     url = "/categories/"
     weight = 2
