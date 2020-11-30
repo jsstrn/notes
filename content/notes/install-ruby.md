@@ -2,7 +2,7 @@
 title: "Install Ruby on macOS"
 summary: "How to install Ruby on macOS"
 categories: ["development"]
-tags: ["ruby"]
+tags: ["ruby", "rbenv"]
 ---
 
 macOS comes with its own version of Ruby which will not allow you to install Gems. To start developing in Ruby, we first have to install our own version of Ruby. 
