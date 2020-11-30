@@ -1,6 +1,6 @@
 ---
-title: "Git alias"
-summary: "Add aliases to common Git commands"
+title: "Add aliases to Git commands"
+summary: "Here's how to add aliases to common Git commands"
 categories: ["development"]
 tags: ["git"]
 ---
