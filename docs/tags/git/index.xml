@@ -18,12 +18,17 @@
       <guid>https://notes.jsstrn.me/notes/git-alias/</guid>
       <description>&lt;p&gt;To create an alias for &lt;code&gt;git checkout&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git config --global alias.co checkout
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you can run &lt;code&gt;git co&lt;/code&gt; instead of &lt;code&gt;git checout&lt;/code&gt;.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Instead of &lt;code&gt;git checkout&lt;/code&gt;, you can now run&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git co
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Some common aliases to consider adding&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git config --global alias.co checkout
 git config --global alias.st &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;status --short&amp;#34;&lt;/span&gt;
 git config --global alias.lg &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;log --oneline --graph&amp;#34;&lt;/span&gt;
+git config --global alias.uncommit &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;reset --soft HEAD~1&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To see the list of aliases in your Git configuration&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git config --list | grep alias
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you want to add this as an alias you will need to add &lt;code&gt;!&lt;/code&gt; to qualify it as a full Bash command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git config --global alias.alias &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;!git config --list | grep alias&amp;#34;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
