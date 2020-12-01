@@ -18,6 +18,7 @@
       <guid>https://notes.jsstrn.me/about/</guid>
       <description>&lt;p&gt;This is not a blog.&lt;/p&gt;
 &lt;p&gt;These notes are written for myself as a reference and mostly center around software development, but may occasionally include other topics. Think of it as a brain archive similar to Josh Branchaud&amp;rsquo;s &lt;a href=&#34;https://github.com/jbranchaud/til&#34;&gt;til&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;These notes are written in Markdown, built into a site with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, and then hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
