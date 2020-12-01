@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Exit a Bash script on error - jsstrn &gt; notes</title>
+<title>Don&#39;t use VPN services - jsstrn &gt; notes</title>
 <meta name="description" content="Jesstern&#39;s notes">
 
 <link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
@@ -40,15 +40,15 @@
 
 
 
-<meta property="og:title" content="Exit a Bash script on error" />
-<meta property="og:description" content="How to exit a Bash script when any command fails" />
+<meta property="og:title" content="Don&#39;t use VPN services" />
+<meta property="og:description" content="Reasons why we might not want to use a VPN" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.jsstrn.me/notes/exit-bash-on-error/" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/do-not-usevpn/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Exit a Bash script on error"/>
-<meta name="twitter:description" content="How to exit a Bash script when any command fails"/>
+<meta name="twitter:title" content="Don&#39;t use VPN services"/>
+<meta name="twitter:description" content="Reasons why we might not want to use a VPN"/>
 
 
 
@@ -87,12 +87,11 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">Exit a Bash script on error</h1>
+            <h1 class="post-title">Don&#39;t use VPN services</h1>
         </header>
         <div class="content">
-            <p>If we want a Bash script to stop executing the rest of the script when one of the commands fail, we can simply add <code>set -e</code> to the top of our script.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">set -e
-</code></pre></div>
+            <p>I came across this <a href="https://gist.github.com/joepie91/5a9909939e6ce7d09e29">article</a> arguing why we should not use a VPN service. The idea that VPN services could be malicious or a honeypot has concerned me. They suggest setting up your own VPN instead with <a href="https://github.com/StreisandEffect/streisand">Streisand</a> or <a href="https://www.wireguard.com/">WireGuard</a>.</p>
+
         </div>
         
 
@@ -105,14 +104,16 @@
         
             <ul class="post-categories">
                 
-                    <li><a href="https://notes.jsstrn.me/categories/">development</a></li>
+                    <li><a href="https://notes.jsstrn.me/categories/">general</a></li>
                 
             </ul>
             
             
                 <ul class="post-tags">
                     
-                        <li><a href="https://notes.jsstrn.me/tags/bash">#bash</a></li>
+                        <li><a href="https://notes.jsstrn.me/tags/resource">#resource</a></li>
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/vpn">#vpn</a></li>
                     
                 </ul>
         
@@ -126,12 +127,12 @@
     <div class="pagination post-pagination">
         <div class="left pagination-item ">
             
-                <a href="/notes/do-not-usevpn/">Don&#39;t use VPN services</a>
+                <a href="/notes/git-status/">Check the status of a Git repository</a>
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/notes/install-ruby/">Install Ruby on macOS</a>
+                <a href="/notes/exit-bash-on-error/">Exit a Bash script on error</a>
             
         </div>
     </div>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>resource on jsstrn &gt; notes</title>
-    <link>https://notes.jsstrn.me/tags/resource/</link>
-    <description>jsstrn &gt; notes (resource)</description>
+    <title>vpn on jsstrn &gt; notes</title>
+    <link>https://notes.jsstrn.me/tags/vpn/</link>
+    <description>jsstrn &gt; notes (vpn)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-    <atom:link href="https://notes.jsstrn.me/tags/resource/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notes.jsstrn.me/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,16 +17,6 @@
       
       <guid>https://notes.jsstrn.me/notes/do-not-usevpn/</guid>
       <description>&lt;p&gt;I came across this &lt;a href=&#34;https://gist.github.com/joepie91/5a9909939e6ce7d09e29&#34;&gt;article&lt;/a&gt; arguing why we should not use a VPN service. The idea that VPN services could be malicious or a honeypot has concerned me. They suggest setting up your own VPN instead with &lt;a href=&#34;https://github.com/StreisandEffect/streisand&#34;&gt;Streisand&lt;/a&gt; or &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;WireGuard&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JavaScript equality table</title>
-      <link>https://notes.jsstrn.me/notes/javascript-equality-table/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://notes.jsstrn.me/notes/javascript-equality-table/</guid>
-      <description>&lt;p&gt;Use strict equality always and here&amp;rsquo;s a good illustration why – JavaScript&amp;rsquo;s &lt;a href=&#34;https://dorey.github.io/JavaScript-Equality-Table/&#34;&gt;equality table&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
