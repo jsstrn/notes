@@ -27,6 +27,13 @@ publishDir = "docs"
     url = "/categories/"
     weight = 2
 
+  [[menu.main]]
+    name = "about"
+    identifier = "about"
+    url = "/about/"
+    weight = 3
+
+
 [taxonomies]
   category = "categories"
   tag = "tags"
