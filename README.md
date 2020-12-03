@@ -26,6 +26,8 @@ hugo new notes/my-first-note.md
 
 This will add "My first note" as the tile in the front matter of your post. To change what gets generated in the front matter, refer to documentation on [archetypes](https://gohugo.io/content-management/archetypes/#readout).
 
+The naming convention for files is `<topic>-<title>.md` (e.g. ruby-install.md)
+
 ## Publish
 
 The entire publish step can be completed by running this script
