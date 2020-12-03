@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>JavaScript equality table - notes &gt; jsstrn.me</title>
+<title>Is it null or undefined? - notes &gt; jsstrn.me</title>
 <meta name="description" content="Jesstern&#39;s notes">
 
 <link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
@@ -56,15 +56,15 @@
 
 
 
-<meta property="og:title" content="JavaScript equality table" />
-<meta property="og:description" content="Why you should always use strict equality" />
+<meta property="og:title" content="Is it null or undefined?" />
+<meta property="og:description" content="Check if a variable is null or undefined in JavaScript" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.jsstrn.me/notes/js-equality-table/" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/js-check-null-undefined/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="JavaScript equality table"/>
-<meta name="twitter:description" content="Why you should always use strict equality"/>
+<meta name="twitter:title" content="Is it null or undefined?"/>
+<meta name="twitter:description" content="Check if a variable is null or undefined in JavaScript"/>
 
 
 
@@ -105,10 +105,18 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">JavaScript equality table</h1>
+            <h1 class="post-title">Is it null or undefined?</h1>
         </header>
         <div class="content">
-            <p>Use strict equality always and here&rsquo;s a good illustration why – JavaScript&rsquo;s <a href="https://dorey.github.io/JavaScript-Equality-Table/">equality table</a>.</p>
+            <p>We can use strict equality to check if a variable is null or undefined in JavaScript.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">value</span> <span style="color:#f92672">===</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">value</span> <span style="color:#f92672">===</span> <span style="color:#66d9ef">undefined</span>) {
+  <span style="color:#75715e">// value is either null or undefined
+</span><span style="color:#75715e"></span>}
+</code></pre></div><p>What I also found interesting is that although the regular equality in JavaScript is generally frowned upon, these two conditions are exactly identical. Of course, in general I would still prefer to use the code above as it is explicit in its intent.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">value</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span>) {
+  <span style="color:#75715e">// value is either null or undefined
+</span><span style="color:#75715e"></span>}
+</code></pre></div><p>Also, have a look at the <a href="https://dorey.github.io/JavaScript-Equality-Table/">equality table</a> in JavaScript.</p>
 
         </div>
         
@@ -131,8 +139,6 @@
                     
                         <li><a href="https://notes.jsstrn.me/tags/javascript">#javascript</a></li>
                     
-                        <li><a href="https://notes.jsstrn.me/tags/resource">#resource</a></li>
-                    
                 </ul>
         
     </div>
@@ -145,12 +151,12 @@
     <div class="pagination post-pagination">
         <div class="left pagination-item ">
             
-                <a href="/notes/js-check-null-undefined/">Is it null or undefined?</a>
+                <a href="/notes/ruby-install/">Install Ruby on macOS</a>
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/notes/js-merge-arrays/">Merging arrays in JavaScript</a>
+                <a href="/notes/js-equality-table/">JavaScript equality table</a>
             
         </div>
     </div>
