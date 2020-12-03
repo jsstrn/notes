@@ -1,6 +1,6 @@
 ---
 title: "Custom CSS for Hugo sites"
-summary: "Add custom CSS to your current Hugo theme"
+summary: "Add a custom CSS file to your current theme in Hugo"
 categories: ["development"]
 tags: ["hugo"]
 ---
