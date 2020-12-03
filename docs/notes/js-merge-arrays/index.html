@@ -108,7 +108,7 @@
             <h1 class="post-title">Merging arrays in JavaScript</h1>
         </header>
         <div class="content">
-            <p>There is no straightforward way to merge two arrays in JavaScript.</p>
+            <p>Let&rsquo;s say we have these two arrays that we would like to merge together.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> [
   <span style="color:#e6db74">&#39;apple&#39;</span>,
   <span style="color:#e6db74">&#39;banana&#39;</span>,
@@ -119,39 +119,24 @@
   <span style="color:#e6db74">&#39;cherry&#39;</span>,
   <span style="color:#e6db74">&#39;durian&#39;</span>,
   <span style="color:#e6db74">&#39;elderberry&#39;</span>,
-  <span style="color:#e6db74">&#39;fig&#39;</span>
+  <span style="color:#e6db74">&#39;fig&#39;</span>,
 ]
-
-<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">c</span> <span style="color:#f92672">=</span> [...<span style="color:#a6e22e">a</span>, ...<span style="color:#a6e22e">b</span>]
-</code></pre></div><p>The problem with this method is that it won&rsquo;t work for arrays with objects.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> [
-  {
-    <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Bob&#39;</span>,
-    <span style="color:#a6e22e">country</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Singapore&#39;</span>
-  }
+</code></pre></div><p>One approach is to use <code>.concat</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">c</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">concat</span>(<span style="color:#a6e22e">b</span>)
+</code></pre></div><p>Another approach is to use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">destructuring</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">c</span> <span style="color:#f92672">=</span> [...<span style="color:#a6e22e">a</span>, ...<span style="color:#a6e22e">b</span>]
+</code></pre></div><p>This results in an array with two entries for &lsquo;cherry&rsquo;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">[
+  <span style="color:#e6db74">&#39;apple&#39;</span>,
+  <span style="color:#e6db74">&#39;banana&#39;</span>,
+  <span style="color:#e6db74">&#39;cherry&#39;</span>,
+  <span style="color:#e6db74">&#39;cherry&#39;</span>,
+  <span style="color:#e6db74">&#39;durian&#39;</span>,
+  <span style="color:#e6db74">&#39;elderberry&#39;</span>,
+  <span style="color:#e6db74">&#39;fig&#39;</span>,
 ]
+</code></pre></div><p>⚠️ One important thing to keep in mind when merging two arrays in JavaScript is that there is no straightforward way to do so without duplicates. I have literally seen production code making this sort of mistake.</p>
 
-<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">=</span> [
-  {
-    <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Bob&#39;</span>,
-    <span style="color:#a6e22e">country</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Malaysia&#39;</span>
-  }
-]
-
-<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">c</span> <span style="color:#f92672">=</span> [...<span style="color:#a6e22e">a</span>, ...<span style="color:#a6e22e">b</span>]
-
-<span style="color:#75715e">// result is c now contains duplicates 
-</span><span style="color:#75715e"></span>[
-  {
-    <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Bob&#39;</span>,
-    <span style="color:#a6e22e">country</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Singapore&#39;</span>
-  },
-  {
-    <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Bob&#39;</span>,
-    <span style="color:#a6e22e">country</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Malaysia&#39;</span>
-  }
-]
-</code></pre></div>
         </div>
         
 
