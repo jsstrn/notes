@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>resource on jsstrn &gt; notes</title>
+    <title>resource on notes &gt; jsstrn.me</title>
     <link>https://notes.jsstrn.me/tags/resource/</link>
-    <description>jsstrn &gt; notes (resource)</description>
+    <description>notes &gt; jsstrn.me (resource)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -12,20 +12,32 @@
     
     <item>
       <title>Don&#39;t use VPN services</title>
-      <link>https://notes.jsstrn.me/notes/do-not-use-vpn/</link>
+      <link>https://notes.jsstrn.me/notes/vpn-do-not-use/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/do-not-use-vpn/</guid>
-      <description>&lt;p&gt;I came across this &lt;a href=&#34;https://gist.github.com/joepie91/5a9909939e6ce7d09e29&#34;&gt;article&lt;/a&gt; arguing why we should not use VPN services. The idea that VPN services could be malicious or a honeypot is a legitimate concern and their suggestion is to set up your own VPN instead with &lt;a href=&#34;https://github.com/StreisandEffect/streisand&#34;&gt;Streisand&lt;/a&gt; or &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;WireGuard&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://notes.jsstrn.me/notes/vpn-do-not-use/</guid>
+      <description>&lt;p&gt;I came across this &lt;a href=&#34;https://gist.github.com/joepie91/5a9909939e6ce7d09e29&#34;&gt;article&lt;/a&gt; arguing why we should not use VPN services. The idea that VPN services could be malicious or a honeypot is a legitimate concern.&lt;/p&gt;
+&lt;p&gt;Their suggestion is to set up your own VPN instead with &lt;a href=&#34;https://github.com/StreisandEffect/streisand&#34;&gt;Streisand&lt;/a&gt; or &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;WireGuard&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Favicon</title>
+      <link>https://notes.jsstrn.me/notes/favicon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/favicon/</guid>
+      <description>&lt;p&gt;I like creating my own favicons with &lt;a href=&#34;https://twitter.com/johnsorrentino&#34;&gt;John Sorrentino&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;https://favicon.io/&#34;&gt;Favicon.io&lt;/a&gt;. The tool allows you to convert existing images into &lt;code&gt;.ico&lt;/code&gt; file format or create a simple favicon from text or emoji.&lt;/p&gt;
+&lt;p&gt;Another useful resource is &lt;a href=&#34;https://www.iconarchive.com/&#34;&gt;Icon Archive&lt;/a&gt;. They offer beautifully designed icons that can be downloaded in various formats including, &lt;code&gt;.ico&lt;/code&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>JavaScript equality table</title>
-      <link>https://notes.jsstrn.me/notes/javascript-equality-table/</link>
+      <link>https://notes.jsstrn.me/notes/js-equality-table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/javascript-equality-table/</guid>
+      <guid>https://notes.jsstrn.me/notes/js-equality-table/</guid>
       <description>&lt;p&gt;Use strict equality always and here&amp;rsquo;s a good illustration why – JavaScript&amp;rsquo;s &lt;a href=&#34;https://dorey.github.io/JavaScript-Equality-Table/&#34;&gt;equality table&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>

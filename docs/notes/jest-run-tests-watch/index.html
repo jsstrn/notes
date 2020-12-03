@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+
+    
+
+<html lang="en-us" data-theme="dark">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Watch for file changes as you run your tests - notes &gt; jsstrn.me</title>
+<meta name="description" content="Jesstern&#39;s notes">
+
+<link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://notes.jsstrn.me/favicon.png">
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="https://notes.jsstrn.me/css/style.8c8ab81054d9f1ef6cc94f6ba5a3fd5de347f1b05b946257d9efa94c3f01a72f.css" integrity="sha256-jIq4EFTZ8e9syU9rpaP9XeNH8bBblGJX2e&#43;pTD8Bpy8=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="https://notes.jsstrn.me/css/style.5977ade662c1073382ff634a1dfeb77425c2dad873f476ba535deacaa0e42fe0.css" integrity="sha256-WXet5mLBBzOC/2NKHf63dCXC2thz9Ha6U13qyqDkL&#43;A=">
+    
+
+
+
+
+
+<meta property="og:title" content="Watch for file changes as you run your tests" />
+<meta property="og:description" content="How to run your tests as your files change in Jest" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/jest-run-tests-watch/" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Watch for file changes as you run your tests"/>
+<meta name="twitter:description" content="How to run your tests as your files change in Jest"/>
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <h1 class="site-title">
+    <a href="/">notes &gt; jsstrn.me</a>
+</h1>
+
+    <nav>
+        
+        
+        <a class="" href="https://notes.jsstrn.me/tags/" title="">tags</a>
+        
+        <a class="" href="https://notes.jsstrn.me/categories/" title="">categories</a>
+        
+        <a class="" href="https://notes.jsstrn.me/about/" title="">about</a>
+        
+    </nav>
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+    
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">Watch for file changes as you run your tests</h1>
+        </header>
+        <div class="content">
+            <p>To watch for file changes and <strong>only</strong> run tests related to changed files. This requires that your project is a Git repository.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jest --watch
+</code></pre></div><p>To watch for file changes and run <strong>all</strong> tests. This does not require that your project be a Git repository.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jest --watchAll
+</code></pre></div><p>We often add this to our npm scripts</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#f92672">&#34;scripts&#34;</span>: {
+    <span style="color:#f92672">&#34;test&#34;</span>: <span style="color:#e6db74">&#34;jest&#34;</span>,
+    <span style="color:#f92672">&#34;test:watch&#34;</span>: <span style="color:#e6db74">&#34;jest --watch&#34;</span>
+  }
+}
+</code></pre></div><h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://jestjs.io/docs/en/cli.html#">Jest CLI documentation</a></li>
+</ul>
+
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://notes.jsstrn.me/categories/">development</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/jest">#jest</a></li>
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/javascript">#javascript</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+        
+    <div class="pagination post-pagination">
+        <div class="left pagination-item ">
+            
+                <a href="/notes/git-diff/">View code changes</a>
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/notes/bash-shebang/">Which shebang to use to run Bash scripts?</a>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+        <div class="copyright">
+            <p>© Jesstern Rays | 2020</p>
+        </div>
+
+        
+
+    
+
+
+
+    </div>
+</footer>
+        
+    </div>
+</body>
+</html>

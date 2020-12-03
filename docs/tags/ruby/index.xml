@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ruby on jsstrn &gt; notes</title>
+    <title>ruby on notes &gt; jsstrn.me</title>
     <link>https://notes.jsstrn.me/tags/ruby/</link>
-    <description>jsstrn &gt; notes (ruby)</description>
+    <description>notes &gt; jsstrn.me (ruby)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -12,10 +12,10 @@
     
     <item>
       <title>Install Ruby on macOS</title>
-      <link>https://notes.jsstrn.me/notes/install-ruby/</link>
+      <link>https://notes.jsstrn.me/notes/ruby-install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/install-ruby/</guid>
+      <guid>https://notes.jsstrn.me/notes/ruby-install/</guid>
       <description>&lt;p&gt;macOS comes with its own version of Ruby which will not allow you to install Gems. To start developing in Ruby, we first have to install our own version of Ruby.&lt;/p&gt;
 &lt;p&gt;It is generally recommended to use a version manager for Ruby, like &lt;code&gt;rbenv&lt;/code&gt; to manage different versions of Ruby in various projects.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;brew install rbenv

@@ -7,6 +7,10 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/notes/hugo-favicon/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/notes/git-alias/</loc>
   </url>
   
@@ -23,15 +27,27 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/notes/hugo-custom-css/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/categories/development/</loc>
   </url>
   
   <url>
-    <loc>https://notes.jsstrn.me/notes/do-not-use-vpn/</loc>
+    <loc>https://notes.jsstrn.me/notes/vpn-do-not-use/</loc>
   </url>
   
   <url>
-    <loc>https://notes.jsstrn.me/notes/exit-bash-on-error/</loc>
+    <loc>https://notes.jsstrn.me/notes/bash-exit-on-error/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/favicon/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/favicon/</loc>
   </url>
   
   <url>
@@ -43,11 +59,15 @@
   </url>
   
   <url>
-    <loc>https://notes.jsstrn.me/notes/install-ruby/</loc>
+    <loc>https://notes.jsstrn.me/tags/hugo/</loc>
   </url>
   
   <url>
-    <loc>https://notes.jsstrn.me/notes/check-variable-null-undefined/</loc>
+    <loc>https://notes.jsstrn.me/notes/ruby-install/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/js-check-variable-null-undefined/</loc>
   </url>
   
   <url>
@@ -55,7 +75,7 @@
   </url>
   
   <url>
-    <loc>https://notes.jsstrn.me/notes/javascript-equality-table/</loc>
+    <loc>https://notes.jsstrn.me/notes/js-equality-table/</loc>
   </url>
   
   <url>
@@ -63,11 +83,11 @@
   </url>
   
   <url>
-    <loc>https://notes.jsstrn.me/</loc>
+    <loc>https://notes.jsstrn.me/notes/</loc>
   </url>
   
   <url>
-    <loc>https://notes.jsstrn.me/notes/</loc>
+    <loc>https://notes.jsstrn.me/</loc>
   </url>
   
   <url>
@@ -123,7 +143,7 @@
   </url>
   
   <url>
-    <loc>https://notes.jsstrn.me/notes/run-jest-tests-watch/</loc>
+    <loc>https://notes.jsstrn.me/notes/jest-run-tests-watch/</loc>
   </url>
   
   <url>

@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notes on jsstrn &gt; notes</title>
+    <title>Notes on notes &gt; jsstrn.me</title>
     <link>https://notes.jsstrn.me/notes/</link>
-    <description>jsstrn &gt; notes (Notes)</description>
+    <description>notes &gt; jsstrn.me (Notes)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
     <atom:link href="https://notes.jsstrn.me/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Add a favicon to a Hugo site</title>
+      <link>https://notes.jsstrn.me/notes/hugo-favicon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/hugo-favicon/</guid>
+      <description>&lt;p&gt;First, you&amp;rsquo;ll need to &lt;a href=&#34;https://favicon.io/&#34;&gt;create a favicon&lt;/a&gt; for your site, then drop the &lt;code&gt;favicon.ico&lt;/code&gt; file into the &lt;code&gt;static&lt;/code&gt; folder of your Hugo site. Build the project with the &lt;code&gt;hugo&lt;/code&gt; command and publish.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Add aliases to Git commands</title>
@@ -48,32 +58,57 @@ git config --global alias.uncommit &lt;span style=&#34;color:#e6db74&#34;&gt;&am
     </item>
     
     <item>
-      <title>Don&#39;t use VPN services</title>
-      <link>https://notes.jsstrn.me/notes/do-not-use-vpn/</link>
+      <title>Custom CSS for Hugo sites</title>
+      <link>https://notes.jsstrn.me/notes/hugo-custom-css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/do-not-use-vpn/</guid>
-      <description>&lt;p&gt;I came across this &lt;a href=&#34;https://gist.github.com/joepie91/5a9909939e6ce7d09e29&#34;&gt;article&lt;/a&gt; arguing why we should not use VPN services. The idea that VPN services could be malicious or a honeypot is a legitimate concern and their suggestion is to set up your own VPN instead with &lt;a href=&#34;https://github.com/StreisandEffect/streisand&#34;&gt;Streisand&lt;/a&gt; or &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;WireGuard&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://notes.jsstrn.me/notes/hugo-custom-css/</guid>
+      <description>&lt;p&gt;Create a &lt;code&gt;custom.css&lt;/code&gt; file to override the existing CSS rules in your current theme. You can name your CSS file whatever you like and have as many custom CSS files as you like.&lt;/p&gt;
+&lt;p&gt;Update your &lt;code&gt;config.toml&lt;/code&gt; file as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;customCss&lt;/span&gt; = [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;css/custom.css&amp;#34;&lt;/span&gt;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t use VPN services</title>
+      <link>https://notes.jsstrn.me/notes/vpn-do-not-use/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/vpn-do-not-use/</guid>
+      <description>&lt;p&gt;I came across this &lt;a href=&#34;https://gist.github.com/joepie91/5a9909939e6ce7d09e29&#34;&gt;article&lt;/a&gt; arguing why we should not use VPN services. The idea that VPN services could be malicious or a honeypot is a legitimate concern.&lt;/p&gt;
+&lt;p&gt;Their suggestion is to set up your own VPN instead with &lt;a href=&#34;https://github.com/StreisandEffect/streisand&#34;&gt;Streisand&lt;/a&gt; or &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;WireGuard&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Exit a Bash script on error</title>
-      <link>https://notes.jsstrn.me/notes/exit-bash-on-error/</link>
+      <link>https://notes.jsstrn.me/notes/bash-exit-on-error/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/exit-bash-on-error/</guid>
+      <guid>https://notes.jsstrn.me/notes/bash-exit-on-error/</guid>
       <description>&lt;p&gt;If we want a Bash script to stop executing the rest of the script when one of the commands fail, we can simply add &lt;code&gt;set -e&lt;/code&gt; to the top of our script.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;set -e
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>Install Ruby on macOS</title>
-      <link>https://notes.jsstrn.me/notes/install-ruby/</link>
+      <title>Favicon</title>
+      <link>https://notes.jsstrn.me/notes/favicon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/install-ruby/</guid>
+      <guid>https://notes.jsstrn.me/notes/favicon/</guid>
+      <description>&lt;p&gt;I like creating my own favicons with &lt;a href=&#34;https://twitter.com/johnsorrentino&#34;&gt;John Sorrentino&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;https://favicon.io/&#34;&gt;Favicon.io&lt;/a&gt;. The tool allows you to convert existing images into &lt;code&gt;.ico&lt;/code&gt; file format or create a simple favicon from text or emoji.&lt;/p&gt;
+&lt;p&gt;Another useful resource is &lt;a href=&#34;https://www.iconarchive.com/&#34;&gt;Icon Archive&lt;/a&gt;. They offer beautifully designed icons that can be downloaded in various formats including, &lt;code&gt;.ico&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Install Ruby on macOS</title>
+      <link>https://notes.jsstrn.me/notes/ruby-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/ruby-install/</guid>
       <description>&lt;p&gt;macOS comes with its own version of Ruby which will not allow you to install Gems. To start developing in Ruby, we first have to install our own version of Ruby.&lt;/p&gt;
 &lt;p&gt;It is generally recommended to use a version manager for Ruby, like &lt;code&gt;rbenv&lt;/code&gt; to manage different versions of Ruby in various projects.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;brew install rbenv
@@ -90,10 +125,10 @@ git config --global alias.uncommit &lt;span style=&#34;color:#e6db74&#34;&gt;&am
     
     <item>
       <title>Is it null or undefined?</title>
-      <link>https://notes.jsstrn.me/notes/check-variable-null-undefined/</link>
+      <link>https://notes.jsstrn.me/notes/js-check-variable-null-undefined/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/check-variable-null-undefined/</guid>
+      <guid>https://notes.jsstrn.me/notes/js-check-variable-null-undefined/</guid>
       <description>&lt;p&gt;We can use strict equality to check if a variable is null or undefined in JavaScript.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;null&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;undefined&lt;/span&gt;) {
   &lt;span style=&#34;color:#75715e&#34;&gt;// value is either null or undefined
@@ -108,10 +143,10 @@ git config --global alias.uncommit &lt;span style=&#34;color:#e6db74&#34;&gt;&am
     
     <item>
       <title>JavaScript equality table</title>
-      <link>https://notes.jsstrn.me/notes/javascript-equality-table/</link>
+      <link>https://notes.jsstrn.me/notes/js-equality-table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/javascript-equality-table/</guid>
+      <guid>https://notes.jsstrn.me/notes/js-equality-table/</guid>
       <description>&lt;p&gt;Use strict equality always and here&amp;rsquo;s a good illustration why – JavaScript&amp;rsquo;s &lt;a href=&#34;https://dorey.github.io/JavaScript-Equality-Table/&#34;&gt;equality table&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
@@ -272,10 +307,10 @@ e - manually edit the current hunk
     
     <item>
       <title>Watch for file changes as you run your tests</title>
-      <link>https://notes.jsstrn.me/notes/run-jest-tests-watch/</link>
+      <link>https://notes.jsstrn.me/notes/jest-run-tests-watch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/run-jest-tests-watch/</guid>
+      <guid>https://notes.jsstrn.me/notes/jest-run-tests-watch/</guid>
       <description>&lt;p&gt;To watch for file changes and &lt;strong&gt;only&lt;/strong&gt; run tests related to changed files. This requires that your project is a Git repository.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;jest --watch
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To watch for file changes and run &lt;strong&gt;all&lt;/strong&gt; tests. This does not require that your project be a Git repository.&lt;/p&gt;

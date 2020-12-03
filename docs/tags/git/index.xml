@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git on jsstrn &gt; notes</title>
+    <title>git on notes &gt; jsstrn.me</title>
     <link>https://notes.jsstrn.me/tags/git/</link>
-    <description>jsstrn &gt; notes (git)</description>
+    <description>notes &gt; jsstrn.me (git)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     

@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Is it null or undefined? - jsstrn &gt; notes</title>
+<title>Custom CSS for Hugo sites - notes &gt; jsstrn.me</title>
 <meta name="description" content="Jesstern&#39;s notes">
 
 <link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
@@ -38,17 +38,33 @@
 
 
 
+    
 
 
-<meta property="og:title" content="Is it null or undefined?" />
-<meta property="og:description" content="Check if a variable is null or undefined in JavaScript" />
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="https://notes.jsstrn.me/css/style.5977ade662c1073382ff634a1dfeb77425c2dad873f476ba535deacaa0e42fe0.css" integrity="sha256-WXet5mLBBzOC/2NKHf63dCXC2thz9Ha6U13qyqDkL&#43;A=">
+    
+
+
+
+
+
+<meta property="og:title" content="Custom CSS for Hugo sites" />
+<meta property="og:description" content="Add custom CSS to your current Hugo theme" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.jsstrn.me/notes/check-variable-null-undefined/" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/hugo-custom-css/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Is it null or undefined?"/>
-<meta name="twitter:description" content="Check if a variable is null or undefined in JavaScript"/>
+<meta name="twitter:title" content="Custom CSS for Hugo sites"/>
+<meta name="twitter:description" content="Add custom CSS to your current Hugo theme"/>
 
 
 
@@ -66,7 +82,7 @@
         <header class="common-header"> 
             
                 <h1 class="site-title">
-    <a href="/">jsstrn &gt; notes</a>
+    <a href="/">notes &gt; jsstrn.me</a>
 </h1>
 
     <nav>
@@ -89,19 +105,14 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">Is it null or undefined?</h1>
+            <h1 class="post-title">Custom CSS for Hugo sites</h1>
         </header>
         <div class="content">
-            <p>We can use strict equality to check if a variable is null or undefined in JavaScript.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">value</span> <span style="color:#f92672">===</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">value</span> <span style="color:#f92672">===</span> <span style="color:#66d9ef">undefined</span>) {
-  <span style="color:#75715e">// value is either null or undefined
-</span><span style="color:#75715e"></span>}
-</code></pre></div><p>What I also found interesting is that although the regular equality in JavaScript is generally frowned upon, these two conditions are exactly identical. Of course, in general I would still prefer to use the code above as it is explicit in its intent.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">value</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span>) {
-  <span style="color:#75715e">// value is either null or undefined
-</span><span style="color:#75715e"></span>}
-</code></pre></div><p>Also, have a look at the <a href="https://dorey.github.io/JavaScript-Equality-Table/">equality table</a> in JavaScript.</p>
-
+            <p>Create a <code>custom.css</code> file to override the existing CSS rules in your current theme. You can name your CSS file whatever you like and have as many custom CSS files as you like.</p>
+<p>Update your <code>config.toml</code> file as follows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[<span style="color:#a6e22e">params</span>]
+  <span style="color:#a6e22e">customCss</span> = [<span style="color:#e6db74">&#34;css/custom.css&#34;</span>]
+</code></pre></div>
         </div>
         
 
@@ -121,7 +132,7 @@
             
                 <ul class="post-tags">
                     
-                        <li><a href="https://notes.jsstrn.me/tags/javascript">#javascript</a></li>
+                        <li><a href="https://notes.jsstrn.me/tags/hugo">#hugo</a></li>
                     
                 </ul>
         
@@ -135,12 +146,12 @@
     <div class="pagination post-pagination">
         <div class="left pagination-item ">
             
-                <a href="/notes/install-ruby/">Install Ruby on macOS</a>
+                <a href="/notes/git-status/">Check the status of a Git repository</a>
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/notes/javascript-equality-table/">JavaScript equality table</a>
+                <a href="/notes/vpn-do-not-use/">Don&#39;t use VPN services</a>
             
         </div>
     </div>
