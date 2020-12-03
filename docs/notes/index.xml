@@ -71,17 +71,6 @@ git config --global alias.uncommit &lt;span style=&#34;color:#e6db74&#34;&gt;&am
     </item>
     
     <item>
-      <title>Don&#39;t use VPN services</title>
-      <link>https://notes.jsstrn.me/notes/vpn-do-not-use/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://notes.jsstrn.me/notes/vpn-do-not-use/</guid>
-      <description>&lt;p&gt;I came across this &lt;a href=&#34;https://gist.github.com/joepie91/5a9909939e6ce7d09e29&#34;&gt;article&lt;/a&gt; arguing why we should not use VPN services. The idea that VPN services could be malicious or a honeypot is a legitimate concern.&lt;/p&gt;
-&lt;p&gt;Their suggestion is to set up your own VPN instead with &lt;a href=&#34;https://github.com/StreisandEffect/streisand&#34;&gt;Streisand&lt;/a&gt; or &lt;a href=&#34;https://www.wireguard.com/&#34;&gt;WireGuard&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Exit a Bash script on error</title>
       <link>https://notes.jsstrn.me/notes/bash-exit-on-error/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
