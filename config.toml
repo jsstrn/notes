@@ -12,6 +12,7 @@ publishDir = "docs"
   paginationSinglePost = true
   style = "dark-without-switcher"
   readMore = false
+  customCss = ["css/custom.css"]
 
 [menu]
 
