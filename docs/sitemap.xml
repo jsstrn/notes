@@ -15,7 +15,15 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/notes/raspi-local-domain/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/tags/bash/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/raspi-purchase/</loc>
   </url>
   
   <url>
@@ -91,7 +99,19 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/categories/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/raspberry-pi/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/tags/rbenv/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/raspi-restart/</loc>
   </url>
   
   <url>
@@ -111,7 +131,15 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/notes/raspi-schedule/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/tags/shebang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/raspi-ssh/</loc>
   </url>
   
   <url>
@@ -120,6 +148,10 @@
   
   <url>
     <loc>https://notes.jsstrn.me/notes/shebang-origin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/raspi-update/</loc>
   </url>
   
   <url>

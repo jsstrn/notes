@@ -55,6 +55,35 @@ git config --global alias.uncommit &lt;span style=&#34;color:#e6db74&#34;&gt;&am
     </item>
     
     <item>
+      <title>Assign a .local domain to a Raspberry Pi</title>
+      <link>https://notes.jsstrn.me/notes/raspi-local-domain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/raspi-local-domain/</guid>
+      <description>&lt;p&gt;First, install &lt;a href=&#34;https://www.avahi.org/&#34;&gt;Avahi&lt;/a&gt; on your Raspberry Pi&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt-get install avahi-daemon
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you can access your Raspberry Pi via its hostname &lt;code&gt;raspberrypi.local&lt;/code&gt; instead of its IP address. You can also change the hostname (see reference).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;ssh pi@raspberrypi.local
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.howtogeek.com/167190/how-and-why-to-assign-the-.local-domain-to-your-raspberry-pi/&#34;&gt;How (and Why) to Assign the .local Domain to Your Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.howtogeek.com/167195/how-to-change-your-raspberry-pi-or-other-linux-devices-hostname/&#34;&gt;How to Change Your Raspberry Pi (or Other Linux Device’s) Hostname&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Buying a Raspberry Pi</title>
+      <link>https://notes.jsstrn.me/notes/raspi-purchase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/raspi-purchase/</guid>
+      <description>&lt;p&gt;There are many different models of &lt;a href=&#34;https://www.raspberrypi.org/&#34;&gt;Raspberry Pi&lt;/a&gt; depending on your needs.&lt;/p&gt;
+&lt;p&gt;Once you have decided which model you want, the easiest option is to purchase a &lt;a href=&#34;https://www.canakit.com/&#34;&gt;CanaKit&lt;/a&gt; Raspberry Pi starter kit. It comes with all the essential accessories you will need to get started including a case with a fan, some heat sinks, and a power supply. Try searching on Amazon for the best deals for Raspberry Pi kits.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Check the status of a Git repository</title>
       <link>https://notes.jsstrn.me/notes/git-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -230,6 +259,19 @@ Array.&lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt;({&lt;span styl
     </item>
     
     <item>
+      <title>Reboot your Raspberry Pi</title>
+      <link>https://notes.jsstrn.me/notes/raspi-restart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/raspi-restart/</guid>
+      <description>&lt;p&gt;To reboot your Raspberry Pi, simply run the command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo shutdown -r now
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Or even simpler&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Revert changes in Git</title>
       <link>https://notes.jsstrn.me/notes/git-reset/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -274,6 +316,37 @@ C has been discarded
     </item>
     
     <item>
+      <title>Schedule a Cron job on Raspberry Pi</title>
+      <link>https://notes.jsstrn.me/notes/raspi-schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/raspi-schedule/</guid>
+      <description>&lt;p&gt;It is often recommended to install updates before installing other packages, we can create a Cron job that will run these commands on a daily basis.&lt;/p&gt;
+&lt;p&gt;List existing Cron jobs&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;crontab -l
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Create a new Cron job&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;crontab -e
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now add this line to the &lt;code&gt;crontab&lt;/code&gt; which will run daily at midnight&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; * * * sudo apt update &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt --yes upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.raspberrypi.org/documentation/linux/usage/cron.md&#34;&gt;Scheduling tasks with Cron&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SSH into a Raspberry Pi</title>
+      <link>https://notes.jsstrn.me/notes/raspi-ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/raspi-ssh/</guid>
+      <description>&lt;p&gt;First, we have to assign a static IP address to the Raspberry on your home router. Most home routers will allow you to do this.&lt;/p&gt;
+&lt;p&gt;Now you can access the Raspberry Pi remotely via SSH &lt;code&gt;ssh &amp;lt;username&amp;gt;@&amp;lt;ip-address&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;ssh pi@192.168.1.100
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The default username is &lt;code&gt;pi&lt;/code&gt; and the default password is &lt;code&gt;raspberry&lt;/code&gt;. For security reasons, you should change your password.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The whole shebang</title>
       <link>https://notes.jsstrn.me/notes/shebang-origin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -286,6 +359,23 @@ C has been discarded
 &lt;/blockquote&gt;
 &lt;p&gt;I personally like to remember &lt;code&gt;#!&lt;/code&gt; as hash bang.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Update your Raspberry Pi</title>
+      <link>https://notes.jsstrn.me/notes/raspi-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/raspi-update/</guid>
+      <description>&lt;h2 id=&#34;update-your-raspberry-pi&#34;&gt;Update your Raspberry Pi&lt;/h2&gt;
+&lt;p&gt;Update the list of packages&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt update
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then upgrade the packages&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will ask if you want to upgrade packages.&lt;/p&gt;
+&lt;p&gt;If you want to upgrade without being prompted, you can add the &lt;code&gt;--yes&lt;/code&gt; flag to the command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt --yes upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>

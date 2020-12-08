@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Run tests that match a describe block - notes &gt; jsstrn.me</title>
+<title>Reboot your Raspberry Pi - notes &gt; jsstrn.me</title>
 <meta name="description" content="Jesstern&#39;s notes">
 
 <link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
@@ -56,15 +56,15 @@
 
 
 
-<meta property="og:title" content="Run tests that match a describe block" />
-<meta property="og:description" content="How to run tests that only match the name in the describe block" />
+<meta property="og:title" content="Reboot your Raspberry Pi" />
+<meta property="og:description" content="How to restart your Raspberry Pi from the Terminal" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.jsstrn.me/notes/jest-match-name-tests/" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/raspi-restart/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Run tests that match a describe block"/>
-<meta name="twitter:description" content="How to run tests that only match the name in the describe block"/>
+<meta name="twitter:title" content="Reboot your Raspberry Pi"/>
+<meta name="twitter:description" content="How to restart your Raspberry Pi from the Terminal"/>
 
 
 
@@ -105,21 +105,14 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">Run tests that match a describe block</h1>
+            <h1 class="post-title">Reboot your Raspberry Pi</h1>
         </header>
         <div class="content">
-            <p>Very often I come across a situation where I&rsquo;d like to only run a certain subset of tests in a describe block, usually when I&rsquo;m trying to debug some code.</p>
-<p>If the describe block you want to run contains the word &ldquo;Fizz Buzz&rdquo;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">describe</span>(<span style="color:#e6db74">&#39;Fizz Buzz&#39;</span>, () =&gt; {})
-</code></pre></div><p>You can run all describe blocks that match a regex pattern</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jest --testNamePattern <span style="color:#e6db74">&#39;Fizz Buzz&#39;</span>
-</code></pre></div><p>Or simply use the alias <code>-t</code> instead</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jest -t <span style="color:#e6db74">&#39;Fizz Buzz&#39;</span>
-</code></pre></div><h2 id="reference">Reference</h2>
-<ul>
-<li><a href="https://jestjs.io/docs/en/cli.html#">Jest CLI documentation</a></li>
-</ul>
-
+            <p>To reboot your Raspberry Pi, simply run the command</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo shutdown -r now
+</code></pre></div><p>Or even simpler</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo reboot
+</code></pre></div>
         </div>
         
 
@@ -132,16 +125,14 @@
         
             <ul class="post-categories">
                 
-                    <li><a href="https://notes.jsstrn.me/categories/">development</a></li>
+                    <li><a href="https://notes.jsstrn.me/categories/">projects</a></li>
                 
             </ul>
             
             
                 <ul class="post-tags">
                     
-                        <li><a href="https://notes.jsstrn.me/tags/jest">#jest</a></li>
-                    
-                        <li><a href="https://notes.jsstrn.me/tags/javascript">#javascript</a></li>
+                        <li><a href="https://notes.jsstrn.me/tags/raspberry-pi">#raspberry pi</a></li>
                     
                 </ul>
         
@@ -155,12 +146,12 @@
     <div class="pagination post-pagination">
         <div class="left pagination-item ">
             
-                <a href="/notes/git-reset/">Revert changes in Git</a>
+                <a href="/notes/js-merge-arrays/">Merging arrays in JavaScript</a>
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/notes/raspi-schedule/">Schedule a Cron job on Raspberry Pi</a>
+                <a href="/notes/git-reset/">Revert changes in Git</a>
             
         </div>
     </div>
