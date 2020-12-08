@@ -2,7 +2,34 @@
 
 Jesstern's notes
 
+## Installation
+
+First, install Hugo
+
+```bash
+brew install hugo
+```
+
+Check that Hugo was installed correctly
+
+```bash
+hugo version
+```
+
 ## Development
+
+Clone the repository
+
+```bash
+git clone git@github.com:jsstrn/notes.git
+```
+
+Update the submodule
+
+```bash
+git submodule init
+git submodule update
+```
 
 Run the server locally and head to [http://localhost:1313](http://localhost:1313/notes)
 
