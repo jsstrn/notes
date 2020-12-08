@@ -39,6 +39,10 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/tags/cron/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/notes/hugo-custom-css/</loc>
   </url>
   
@@ -103,6 +107,10 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/tags/pi-hole/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/categories/projects/</loc>
   </url>
   
@@ -140,6 +148,10 @@
   
   <url>
     <loc>https://notes.jsstrn.me/tags/shebang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/ssh/</loc>
   </url>
   
   <url>

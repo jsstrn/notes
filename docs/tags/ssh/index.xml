@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssh on notes &gt; jsstrn.me</title>
+    <link>https://notes.jsstrn.me/tags/ssh/</link>
+    <description>notes &gt; jsstrn.me (ssh)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="https://notes.jsstrn.me/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSH into a Raspberry Pi</title>
+      <link>https://notes.jsstrn.me/notes/raspi-ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/raspi-ssh/</guid>
+      <description>&lt;p&gt;First, we have to assign a static IP address to the Raspberry on your home router. Most home routers will allow you to do this.&lt;/p&gt;
+&lt;p&gt;Now you can access the Raspberry Pi remotely via SSH &lt;code&gt;ssh &amp;lt;username&amp;gt;@&amp;lt;ip-address&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;ssh pi@192.168.1.100
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The default username is &lt;code&gt;pi&lt;/code&gt; and the default password is &lt;code&gt;raspberry&lt;/code&gt;. For security reasons, you should change your password.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
