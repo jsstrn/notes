@@ -2,7 +2,7 @@
 title: "SSH into a Raspberry Pi"
 summary: "How to SSH into a Raspberry Pi"
 categories: ["projects"]
-tags: ["raspberry pi"]
+tags: ["raspberry pi", "ssh"]
 ---
 
 First, we have to assign a static IP address to the Raspberry on your home router. Most home routers will allow you to do this.

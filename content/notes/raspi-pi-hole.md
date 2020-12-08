@@ -2,7 +2,7 @@
 title: "Getting started with Pi-hole"
 summary: "Using Pi-hole to block ads"
 categories: ["projects"]
-tags: ["raspberry pi"]
+tags: ["raspberry pi", "pi-hole"]
 ---
 
 [Pi-hole](https://pi-hole.net/) is a domain name server that serves as a network-wide ad blocker.

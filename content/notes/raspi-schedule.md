@@ -2,7 +2,7 @@
 title: "Schedule a Cron job on Raspberry Pi"
 summary: "How to schedule a Cron job on your Raspberry Pi"
 categories: ["projects"]
-tags: ["raspberry pi"]
+tags: ["raspberry pi", "cron"]
 ---
 
 It is often recommended to install updates before installing other packages, we can create a Cron job that will run these commands on a daily basis.
