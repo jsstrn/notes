@@ -29,10 +29,16 @@ publishDir = "docs"
     weight = 2
 
   [[menu.main]]
+    name = "all notes"
+    identifier = "notes"
+    url = "/notes/"
+    weight = 3
+
+  [[menu.main]]
     name = "about"
     identifier = "about"
     url = "/about/"
-    weight = 3
+    weight = 4
 
 
 [taxonomies]
