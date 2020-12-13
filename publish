@@ -7,4 +7,4 @@ git add docs/
 git commit -m 'Publish'
 git push
 
-echo -e "📖  Notes successfully published! https://notes.jsstrn.me"
+echo -e "\n💚  Notes successfully published! https://notes.jsstrn.me"
