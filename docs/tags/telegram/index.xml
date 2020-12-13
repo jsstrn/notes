@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>BBC Earth videos on Telegram</title>
+      <link>https://notes.jsstrn.me/notes/project-bbc-earth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/project-bbc-earth/</guid>
+      <description>&lt;p&gt;I created a Telegram channel to share videos from the BBC Earth YouTube channel. Since this project did not warrant a server to be up 24/7, I leveraged on a serverless architecture to keep the cost low. I used &lt;a href=&#34;https://aws.amazon.com/lambda/&#34;&gt;AWS Lambda&lt;/a&gt; for the lambda functions and &lt;a href=&#34;https://aws.amazon.com/cloudwatch/&#34;&gt;AWS CloudWatch&lt;/a&gt; to trigger the lambda through scheduled events.&lt;/p&gt;
+&lt;p&gt;First, I built a Telegram bot which fetches a random video from the BBC Earth YouTube channel and publishes it to the Telegram channel. I then have it run on a daily schedule.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://t.me/s/BBCEarthDaily&#34;&gt;BBC Earth Daily&lt;/a&gt; is made publicly available for all to enjoy. If you are on Telegram, you can subscribe &lt;a href=&#34;https://t.me/BBCEarthDaily&#34;&gt;here&lt;/a&gt;. The code is &lt;a href=&#34;https://github.com/jsstrn/bbc-earth-daily&#34;&gt;open sourced&lt;/a&gt; so you can fork it and build your own.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Daily dad jokes on Telegram</title>
       <link>https://notes.jsstrn.me/notes/project-daily-dad-jokes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -19,6 +31,16 @@
       <description>&lt;p&gt;I created a Telegram channel to deliver dad jokes every day. I did not want to build a Node.js server and host it on Digital Ocean or Linode because that would be cost inefficient. Instead, I wanted to build an event-driven serverless architecture. We can achieve this with &lt;a href=&#34;https://aws.amazon.com/lambda/&#34;&gt;AWS Lambda&lt;/a&gt; for the lambda functions and &lt;a href=&#34;https://aws.amazon.com/cloudwatch/&#34;&gt;AWS CloudWatch&lt;/a&gt; to trigger the lambda through scheduled events.&lt;/p&gt;
 &lt;p&gt;I first built a Telegram bot and then added it to the Telegram channel. The bot fetches a dad joke from &lt;a href=&#34;https://icanhazdadjoke.com/api&#34;&gt;icanhazdadjoke.com&lt;/a&gt; and publishes it to the channel. The last step was to schedule a daily trigger to run the lambda function on a regular schedule.&lt;/p&gt;
 &lt;p&gt;You can view the &lt;a href=&#34;https://t.me/s/DailyDadJokes&#34;&gt;Daily Dad Jokes&lt;/a&gt; public channel. If you have a Telegram account you can also subscribe to the &lt;a href=&#34;https://t.me/DailyDadJokes&#34;&gt;channel&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>View public Telegram channels outside of Telegram</title>
+      <link>https://notes.jsstrn.me/notes/telegram-public-channel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/telegram-public-channel/</guid>
+      <description>&lt;p&gt;You can actually view any public Telegram channel without requiring a Telegram account. All you need to do is follow this pattern &lt;code&gt;t.me/s/&amp;lt;channel-name&amp;gt;&lt;/code&gt; to the Telegram channel URL. This is why you can view &lt;a href=&#34;https://t.me/s/DailyDadJokes&#34;&gt;Daily Dad Jokes&lt;/a&gt; and &lt;a href=&#34;https://t.me/s/BBCEarthDaily&#34;&gt;BBC Earth Daily&lt;/a&gt; outside of Telegram. Even my &lt;a href=&#34;https://t.me/s/jesstern&#34;&gt;personal public channel&lt;/a&gt; is made available this way.&lt;/p&gt;
 </description>
     </item>
     

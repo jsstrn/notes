@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>View code changes - notes &gt; jsstrn.me</title>
+<title>BBC Earth videos on Telegram - notes &gt; jsstrn.me</title>
 <meta name="description" content="Jesstern&#39;s notes">
 
 <link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
@@ -56,15 +56,15 @@
 
 
 
-<meta property="og:title" content="View code changes" />
-<meta property="og:description" content="View code changes with git diff" />
+<meta property="og:title" content="BBC Earth videos on Telegram" />
+<meta property="og:description" content="Your daily dose of BBC Earth on Telegram" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.jsstrn.me/notes/git-diff/" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/project-bbc-earth/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="View code changes"/>
-<meta name="twitter:description" content="View code changes with git diff"/>
+<meta name="twitter:title" content="BBC Earth videos on Telegram"/>
+<meta name="twitter:description" content="Your daily dose of BBC Earth on Telegram"/>
 
 
 
@@ -105,20 +105,13 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">View code changes</h1>
+            <h1 class="post-title">BBC Earth videos on Telegram</h1>
         </header>
         <div class="content">
-            <p>One way to review code changes that are unstaged is to use the following command.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git diff
-</code></pre></div><p>Note that untracked files will not be shown. You have to add untracked files before they will show up.</p>
-<pre><code>git add -N &lt;untracked-file&gt;
-</code></pre><p>You can also see a summary of what has changed with <code>--stat</code></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git diff --stat
-</code></pre></div><p>This command is useful to check for trailing white space and merge conflict markers.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git diff --check
-</code></pre></div><p>You can use this command if you&rsquo;ve already staged your changes. This is useful before you make a commit.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git diff --staged
-</code></pre></div>
+            <p>I created a Telegram channel to share videos from the BBC Earth YouTube channel. Since this project did not warrant a server to be up 24/7, I leveraged on a serverless architecture to keep the cost low. I used <a href="https://aws.amazon.com/lambda/">AWS Lambda</a> for the lambda functions and <a href="https://aws.amazon.com/cloudwatch/">AWS CloudWatch</a> to trigger the lambda through scheduled events.</p>
+<p>First, I built a Telegram bot which fetches a random video from the BBC Earth YouTube channel and publishes it to the Telegram channel. I then have it run on a daily schedule.</p>
+<p><a href="https://t.me/s/BBCEarthDaily">BBC Earth Daily</a> is made publicly available for all to enjoy. If you are on Telegram, you can subscribe <a href="https://t.me/BBCEarthDaily">here</a>. The code is <a href="https://github.com/jsstrn/bbc-earth-daily">open sourced</a> so you can fork it and build your own.</p>
+
         </div>
         
 
@@ -131,14 +124,20 @@
         
             <ul class="post-categories">
                 
-                    <li><a href="https://notes.jsstrn.me/categories/">development</a></li>
+                    <li><a href="https://notes.jsstrn.me/categories/">projects</a></li>
                 
             </ul>
             
             
                 <ul class="post-tags">
                     
-                        <li><a href="https://notes.jsstrn.me/tags/git">#git</a></li>
+                        <li><a href="https://notes.jsstrn.me/tags/bbc">#bbc</a></li>
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/telegram">#telegram</a></li>
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/youtube">#youtube</a></li>
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/api">#api</a></li>
                     
                 </ul>
         
@@ -152,12 +151,12 @@
     <div class="pagination post-pagination">
         <div class="left pagination-item ">
             
-                <a href="/notes/git-commit/">View changes before committing</a>
+                <a href="/notes/raspi-local-domain/">Assign a .local domain to a Raspberry Pi</a>
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/notes/telegram-public-channel/">View public Telegram channels outside of Telegram</a>
+                <a href="/notes/raspi-purchase/">Buying a Raspberry Pi</a>
             
         </div>
     </div>

@@ -61,6 +61,18 @@ git config --global alias.uncommit &lt;span style=&#34;color:#e6db74&#34;&gt;&am
     </item>
     
     <item>
+      <title>BBC Earth videos on Telegram</title>
+      <link>https://notes.jsstrn.me/notes/project-bbc-earth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/project-bbc-earth/</guid>
+      <description>&lt;p&gt;I created a Telegram channel to share videos from the BBC Earth YouTube channel. Since this project did not warrant a server to be up 24/7, I leveraged on a serverless architecture to keep the cost low. I used &lt;a href=&#34;https://aws.amazon.com/lambda/&#34;&gt;AWS Lambda&lt;/a&gt; for the lambda functions and &lt;a href=&#34;https://aws.amazon.com/cloudwatch/&#34;&gt;AWS CloudWatch&lt;/a&gt; to trigger the lambda through scheduled events.&lt;/p&gt;
+&lt;p&gt;First, I built a Telegram bot which fetches a random video from the BBC Earth YouTube channel and publishes it to the Telegram channel. I then have it run on a daily schedule.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://t.me/s/BBCEarthDaily&#34;&gt;BBC Earth Daily&lt;/a&gt; is made publicly available for all to enjoy. If you are on Telegram, you can subscribe &lt;a href=&#34;https://t.me/BBCEarthDaily&#34;&gt;here&lt;/a&gt;. The code is &lt;a href=&#34;https://github.com/jsstrn/bbc-earth-daily&#34;&gt;open sourced&lt;/a&gt; so you can fork it and build your own.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Buying a Raspberry Pi</title>
       <link>https://notes.jsstrn.me/notes/raspi-purchase/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -495,6 +507,16 @@ e - manually edit the current hunk
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can use this command if you&amp;rsquo;ve already staged your changes. This is useful before you make a commit.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git diff --staged
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>View public Telegram channels outside of Telegram</title>
+      <link>https://notes.jsstrn.me/notes/telegram-public-channel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/telegram-public-channel/</guid>
+      <description>&lt;p&gt;You can actually view any public Telegram channel without requiring a Telegram account. All you need to do is follow this pattern &lt;code&gt;t.me/s/&amp;lt;channel-name&amp;gt;&lt;/code&gt; to the Telegram channel URL. This is why you can view &lt;a href=&#34;https://t.me/s/DailyDadJokes&#34;&gt;Daily Dad Jokes&lt;/a&gt; and &lt;a href=&#34;https://t.me/s/BBCEarthDaily&#34;&gt;BBC Earth Daily&lt;/a&gt; outside of Telegram. Even my &lt;a href=&#34;https://t.me/s/jesstern&#34;&gt;personal public channel&lt;/a&gt; is made available this way.&lt;/p&gt;
+</description>
     </item>
     
     <item>

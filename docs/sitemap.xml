@@ -15,6 +15,10 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/tags/api/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/notes/raspi-local-domain/</loc>
   </url>
   
@@ -24,6 +28,14 @@
   
   <url>
     <loc>https://notes.jsstrn.me/tags/bash/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/bbc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/project-bbc-earth/</loc>
   </url>
   
   <url>
@@ -215,6 +227,10 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/notes/telegram-public-channel/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/tags/vim/</loc>
   </url>
   
@@ -224,6 +240,10 @@
   
   <url>
     <loc>https://notes.jsstrn.me/notes/bash-shebang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/youtube/</loc>
   </url>
   
 </urlset>
