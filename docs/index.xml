@@ -18,7 +18,8 @@
       <guid>https://notes.jsstrn.me/about/</guid>
       <description>&lt;p&gt;This is not a blog.&lt;/p&gt;
 &lt;p&gt;These notes are written for myself as a reference and mostly center around software development, but may occasionally include other topics. They are deliberately concise. Think of it as a brain archive similar to Josh Branchaud&amp;rsquo;s &lt;a href=&#34;https://github.com/jbranchaud/til&#34;&gt;Today I Learned&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;These notes are organized by &lt;a href=&#34;https://notes.jsstrn.me/tags/&#34;&gt;tags&lt;/a&gt; and &lt;a href=&#34;https://notes.jsstrn.me/categories/&#34;&gt;categories&lt;/a&gt;, and can be viewed in its entirety in &lt;a href=&#34;https://notes.jsstrn.me/notes/&#34;&gt;one page&lt;/a&gt;. They are written in Markdown, built into a static site with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, and hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The easiest way to search for a note is to view them in &lt;a href=&#34;https://notes.jsstrn.me/notes/&#34;&gt;one page&lt;/a&gt;. They are organized by &lt;a href=&#34;https://notes.jsstrn.me/tags/&#34;&gt;tags&lt;/a&gt; and &lt;a href=&#34;https://notes.jsstrn.me/categories/&#34;&gt;categories&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;These notes are written in Markdown, built into a static site with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, and hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To learn more about the author, visit &lt;a href=&#34;https://jsstrn.me/&#34;&gt;jsstrn.me&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
@@ -562,9 +563,9 @@ e - manually edit the current hunk
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://notes.jsstrn.me/notes/mechanical-keyboards/</guid>
-      <description>&lt;p&gt;There are three main types of switches to choose from – linear, tactile, and clicky. The most popular switches are made by Cherry MX which have assigned red for linear switches, brown for tactile swithces, and blue for clicky switches.&lt;/p&gt;
+      <description>&lt;p&gt;There are three main types of switches to choose from – linear, tactile, and clicky. The most popular switches are made by Cherry MX which have assigned red for linear switches, brown for tactile switches, and blue for clicky switches.&lt;/p&gt;
 &lt;p&gt;Brown switches are the most suitable ones for most users. They require a bit more force to active the keys and therefore reduce accidental typos. This is my preferred option.&lt;/p&gt;
-&lt;p&gt;Blue switches are similar to brown swithces but emit an audible click sound when pressed. This may not be suitable when working in an office space.&lt;/p&gt;
+&lt;p&gt;Blue switches are similar to brown switches but emit an audible click sound when pressed. This may not be suitable when working in an office space.&lt;/p&gt;
 &lt;p&gt;Red switches, because they are linear, have no feedback when pressed and are more suitable for gamers. Accidentally hitting a key will activate it, this results in more typos, but is acceptable for gaming.&lt;/p&gt;
 </description>
     </item>
