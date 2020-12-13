@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Daily Dad Jokes - notes &gt; jsstrn.me</title>
+<title>Daily dad jokes on Telegram - notes &gt; jsstrn.me</title>
 <meta name="description" content="Jesstern&#39;s notes">
 
 <link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
@@ -56,15 +56,15 @@
 
 
 
-<meta property="og:title" content="Daily Dad Jokes" />
-<meta property="og:description" content="How I built an event-driven serverless Telegram bot" />
+<meta property="og:title" content="Daily dad jokes on Telegram" />
+<meta property="og:description" content="How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://notes.jsstrn.me/notes/project-daily-dad-jokes/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Daily Dad Jokes"/>
-<meta name="twitter:description" content="How I built an event-driven serverless Telegram bot"/>
+<meta name="twitter:title" content="Daily dad jokes on Telegram"/>
+<meta name="twitter:description" content="How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily"/>
 
 
 
@@ -105,10 +105,10 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">Daily Dad Jokes</h1>
+            <h1 class="post-title">Daily dad jokes on Telegram</h1>
         </header>
         <div class="content">
-            <p>I created a Telegram channel to deliver dad jokes every day. I did not want to be build a Node.js server and host it on Digital Ocean or Linode because that would be cost inefficient. Instead, I wanted to build an event-driven serverless architecture. We can achieve this with <a href="https://aws.amazon.com/lambda/">AWS Lambda</a> for the lambda functions and <a href="https://aws.amazon.com/cloudwatch/">AWS CloudWatch</a> to trigger the lambda through scheduled events.</p>
+            <p>I created a Telegram channel to deliver dad jokes every day. I did not want to build a Node.js server and host it on Digital Ocean or Linode because that would be cost inefficient. Instead, I wanted to build an event-driven serverless architecture. We can achieve this with <a href="https://aws.amazon.com/lambda/">AWS Lambda</a> for the lambda functions and <a href="https://aws.amazon.com/cloudwatch/">AWS CloudWatch</a> to trigger the lambda through scheduled events.</p>
 <p>I first built a Telegram bot and then added it to the Telegram channel. The bot fetches a dad joke from <a href="https://icanhazdadjoke.com/api">icanhazdadjoke.com</a> and publishes it to the channel. The last step was to schedule a daily trigger to run the lambda function on a regular schedule.</p>
 <p>You can view the <a href="https://t.me/s/DailyDadJokes">Daily Dad Jokes</a> public channel. If you have a Telegram account you can also subscribe to the <a href="https://t.me/DailyDadJokes">channel</a>.</p>
 
@@ -137,13 +137,9 @@
                     
                         <li><a href="https://notes.jsstrn.me/tags/serverless">#serverless</a></li>
                     
-                        <li><a href="https://notes.jsstrn.me/tags/telegram-api">#telegram api</a></li>
+                        <li><a href="https://notes.jsstrn.me/tags/telegram">#telegram</a></li>
                     
                         <li><a href="https://notes.jsstrn.me/tags/aws">#aws</a></li>
-                    
-                        <li><a href="https://notes.jsstrn.me/tags/aws-lambda">#aws lambda</a></li>
-                    
-                        <li><a href="https://notes.jsstrn.me/tags/aws-cloudwatch">#aws cloudwatch</a></li>
                     
                 </ul>
         
