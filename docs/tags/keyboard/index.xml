@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>keyboard on notes &gt; jsstrn.me</title>
+    <link>https://notes.jsstrn.me/tags/keyboard/</link>
+    <description>notes &gt; jsstrn.me (keyboard)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="https://notes.jsstrn.me/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Which mechanical keyboard switch should I choose?</title>
+      <link>https://notes.jsstrn.me/notes/mechanical-keyboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/mechanical-keyboards/</guid>
+      <description>&lt;p&gt;There are three main types of switches to choose from – linear, tactile, and clicky. The most popular switches are made by Cherry MX which have assigned red for linear switches, brown for tactile swithces, and blue for clicky switches.&lt;/p&gt;
+&lt;p&gt;Brown switches are the most suitable ones for most users. They require a bit more force to active the keys and therefore reduce accidental typos. This is my preferred option.&lt;/p&gt;
+&lt;p&gt;Blue switches are similar to brown swithces but emit an audible click sound when pressed. This may not be suitable when working in an office space.&lt;/p&gt;
+&lt;p&gt;Red switches, because they are linear, have no feedback when pressed and are more suitable for gamers. Accidentally hitting a key will activate it, this results in more typos, but is acceptable for gaming.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
