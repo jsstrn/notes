@@ -2,6 +2,27 @@
 
 Jesstern's notes
 
+## Getting started
+
+First clone this repository
+
+```bash
+git clone git@github.com:jsstrn/notes.git
+```
+
+Then add the Git submodule and update it
+
+```bash
+git submodule init
+git submodule update
+```
+
+Alternatively, you can run it all as one command
+
+```bash
+git clone --recurse-submodules git@github.com:jsstrn/notes.git
+```
+
 ## Installation
 
 First, install Hugo
@@ -34,6 +55,12 @@ git submodule update
 Run the server locally and head to [http://localhost:1313](http://localhost:1313/notes)
 
 ```bash
+npm start
+```
+
+Which runs this command
+
+```bash
 hugo serve
 ```
 
@@ -48,6 +75,12 @@ hugo serve -D
 All content is located in the `content` directory. To create a new post in `content/notes`, run
 
 ```bash
+npm run new
+```
+
+Which runs this command
+
+```bash
 hugo new notes/my-first-note.md
 ```
 
@@ -57,7 +90,13 @@ The naming convention for files is `<topic>-<title>.md` (e.g. ruby-install.md)
 
 ## Publish
 
-The entire publish step can be completed by running this script
+To publish, simply run
+
+```bash
+npm run publish
+```
+
+This runs the publish script
 
 ```bash
 ./publish

@@ -1,0 +1,28 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "Jesstern's notes",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "hugo serve",
+    "build": "hugo",
+    "new": "hugo new notes/my-new-note.md",
+    "publish": "./publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsstrn/notes.git"
+  },
+  "keywords": [
+    "notes"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsstrn/notes/issues"
+  },
+  "homepage": "https://github.com/jsstrn/notes#readme"
+}
