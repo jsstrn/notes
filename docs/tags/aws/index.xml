@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aws on notes &gt; jsstrn.me</title>
+    <link>https://notes.jsstrn.me/tags/aws/</link>
+    <description>notes &gt; jsstrn.me (aws)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="https://notes.jsstrn.me/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Daily Dad Jokes</title>
+      <link>https://notes.jsstrn.me/notes/project-daily-dad-jokes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/project-daily-dad-jokes/</guid>
+      <description>&lt;p&gt;I created a Telegram channel to deliver dad jokes every day. I did not want to be build a Node.js server and host it on Digital Ocean or Linode because that would be cost inefficient. Instead, I wanted to build an event-driven serverless architecture. We can achieve this with &lt;a href=&#34;https://aws.amazon.com/lambda/&#34;&gt;AWS Lambda&lt;/a&gt; for the lambda functions and &lt;a href=&#34;https://aws.amazon.com/cloudwatch/&#34;&gt;AWS CloudWatch&lt;/a&gt; to trigger the lambda through scheduled events.&lt;/p&gt;
+&lt;p&gt;I first built a Telegram bot and then added it to the Telegram channel. The bot fetches a dad joke from &lt;a href=&#34;https://icanhazdadjoke.com/api&#34;&gt;icanhazdadjoke.com&lt;/a&gt; and publishes it to the channel. The last step was to schedule a daily trigger to run the lambda function on a regular schedule.&lt;/p&gt;
+&lt;p&gt;You can view the &lt;a href=&#34;https://t.me/s/DailyDadJokes&#34;&gt;Daily Dad Jokes&lt;/a&gt; public channel. If you have a Telegram account you can also subscribe to the &lt;a href=&#34;https://t.me/DailyDadJokes&#34;&gt;channel&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

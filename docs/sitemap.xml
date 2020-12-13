@@ -19,6 +19,18 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/tags/aws/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/aws-cloudwatch/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/aws-lambda/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/tags/bash/</loc>
   </url>
   
@@ -47,7 +59,23 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/notes/project-daily-dad-jokes/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/categories/development/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/dig/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/dig-dns-lookup-domain/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/dns/</loc>
   </url>
   
   <url>
@@ -99,6 +127,10 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/tags/node.js/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/notes/</loc>
   </url>
   
@@ -147,6 +179,10 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/tags/serverless/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/tags/shebang/</loc>
   </url>
   
@@ -160,6 +196,10 @@
   
   <url>
     <loc>https://notes.jsstrn.me/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/tags/telegram-api/</loc>
   </url>
   
   <url>
