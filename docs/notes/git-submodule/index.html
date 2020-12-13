@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Check the status of a Git repository - notes &gt; jsstrn.me</title>
+<title>Clone a repository with submodules - notes &gt; jsstrn.me</title>
 <meta name="description" content="Jesstern&#39;s notes">
 
 <link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
@@ -56,15 +56,15 @@
 
 
 
-<meta property="og:title" content="Check the status of a Git repository" />
-<meta property="og:description" content="How to check the status of a Git repository" />
+<meta property="og:title" content="Clone a repository with submodules" />
+<meta property="og:description" content="How to clone a repository with submodules" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notes.jsstrn.me/notes/git-status/" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/git-submodule/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Check the status of a Git repository"/>
-<meta name="twitter:description" content="How to check the status of a Git repository"/>
+<meta name="twitter:title" content="Clone a repository with submodules"/>
+<meta name="twitter:description" content="How to clone a repository with submodules"/>
 
 
 
@@ -107,16 +107,22 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">Check the status of a Git repository</h1>
+            <h1 class="post-title">Clone a repository with submodules</h1>
         </header>
         <div class="content">
-            <p>To check the status of the Git repository.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git status
-</code></pre></div><p>We can see a <code>--short</code> or <code>-s</code> version with this command.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git status --short
-</code></pre></div><p>For convenience, you can add <code>git st</code> as an alias.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git config --global alias.st <span style="color:#e6db74">&#34;status --short&#34;</span>
-</code></pre></div>
+            <p>Git commands are different for different versions. Check your Git version.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git --version
+</code></pre></div><p>Clone a repository with submodules using the <code>--recurse-submodules</code> flag. This works for Git version 2.13 or higher.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone --recurse-submodules &lt;remote-repo-url&gt;
+</code></pre></div><p>If the repository has a lot of submodules, then adding the <code>-j8</code> flag will fetch up to 8 submodules in parallel.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone --recurse-submodules -j8 &lt;remote-repo-url&gt;
+</code></pre></div><p>Alternatively, first clone the repository and then add the submodules. This should work regardless of your Git version.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone &lt;remote-repo-url&gt;
+git submodule init
+git submodule update
+</code></pre></div><h2 id="reference">Reference</h2>
+<p><a href="https://www.w3docs.com/snippets/git/how-to-clone-including-submodules.html">How to clone including submodules</a></p>
+
         </div>
         
 
@@ -150,12 +156,12 @@
     <div class="pagination post-pagination">
         <div class="left pagination-item ">
             
-                <a href="/notes/raspi-purchase/">Buying a Raspberry Pi</a>
+                <a href="/notes/git-status/">Check the status of a Git repository</a>
             
         </div>
         <div class="right pagination-item ">
             
-                <a href="/notes/git-submodule/">Clone a repository with submodules</a>
+                <a href="/notes/js-array-range/">Create an array from range of numbers</a>
             
         </div>
     </div>

@@ -49,10 +49,10 @@ git config --global alias.uncommit &lt;span style=&#34;color:#e6db74&#34;&gt;&am
     
     <item>
       <title>Clone a repository with submodules</title>
-      <link>https://notes.jsstrn.me/notes/my-new-note/</link>
+      <link>https://notes.jsstrn.me/notes/git-submodule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/my-new-note/</guid>
+      <guid>https://notes.jsstrn.me/notes/git-submodule/</guid>
       <description>&lt;p&gt;Git commands are different for different versions. Check your Git version.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git --version
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Clone a repository with submodules using the &lt;code&gt;--recurse-submodules&lt;/code&gt; flag. This works for Git version 2.13 or higher.&lt;/p&gt;
