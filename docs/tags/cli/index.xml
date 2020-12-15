@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cli on notes &gt; jsstrn.me</title>
+    <link>https://notes.jsstrn.me/tags/cli/</link>
+    <description>notes &gt; jsstrn.me (cli)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="https://notes.jsstrn.me/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Command Line Interface Guidelines</title>
+      <link>https://notes.jsstrn.me/notes/my-new-note/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/my-new-note/</guid>
+      <description>&lt;p&gt;Guidelines for building better command-line programs.&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://clig.dev/&#34;&gt;Command Line Interface Guidelines&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
