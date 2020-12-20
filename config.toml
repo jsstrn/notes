@@ -29,7 +29,7 @@ publishDir = "docs"
     weight = 2
 
   [[menu.main]]
-    name = "all notes"
+    name = "all"
     identifier = "notes"
     url = "/notes/"
     weight = 3
