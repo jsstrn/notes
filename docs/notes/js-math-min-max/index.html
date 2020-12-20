@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+
+    
+
+<html lang="en-us" data-theme="dark">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Set the lower and upper bound limits of a variable - notes &gt; jsstrn.me</title>
+<meta name="description" content="Jesstern&#39;s notes">
+
+<link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://notes.jsstrn.me/favicon.png">
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="https://notes.jsstrn.me/css/style.8c8ab81054d9f1ef6cc94f6ba5a3fd5de347f1b05b946257d9efa94c3f01a72f.css" integrity="sha256-jIq4EFTZ8e9syU9rpaP9XeNH8bBblGJX2e&#43;pTD8Bpy8=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="https://notes.jsstrn.me/css/style.5977ade662c1073382ff634a1dfeb77425c2dad873f476ba535deacaa0e42fe0.css" integrity="sha256-WXet5mLBBzOC/2NKHf63dCXC2thz9Ha6U13qyqDkL&#43;A=">
+    
+
+
+
+
+
+<meta property="og:title" content="Set the lower and upper bound limits of a variable" />
+<meta property="og:description" content="Use Math.min() and Math.max() to set the upper and lower bound limits of a variable" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/js-math-min-max/" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Set the lower and upper bound limits of a variable"/>
+<meta name="twitter:description" content="Use Math.min() and Math.max() to set the upper and lower bound limits of a variable"/>
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <h1 class="site-title">
+    <a href="/">notes &gt; jsstrn.me</a>
+</h1>
+
+    <nav>
+        
+        
+        <a class="" href="https://notes.jsstrn.me/tags/" title="">tags</a>
+        
+        <a class="" href="https://notes.jsstrn.me/categories/" title="">categories</a>
+        
+        <a class="" href="https://notes.jsstrn.me/notes/" title="">all notes</a>
+        
+        <a class="" href="https://notes.jsstrn.me/about/" title="">about</a>
+        
+    </nav>
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+    
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">Set the lower and upper bound limits of a variable</h1>
+        </header>
+        <div class="content">
+            <p>Here we want to create functions that allow us to count up and down a variable with a lower bound of 0.</p>
+<p>We can achieve this easily with <code>Math.max()</code> which returns the highest value. So now if count falls below 0 it will default to 0 because <code>Math.max(-1, 0)</code> is 0.</p>
+<p>Similarly, if you had to set the upper bound limit of a variable, you would use <code>Math.min()</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">countUp</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">count</span>, <span style="color:#a6e22e">max</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> Math.<span style="color:#a6e22e">min</span>(<span style="color:#a6e22e">count</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, <span style="color:#a6e22e">max</span>)
+}
+
+<span style="color:#a6e22e">countDown</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">count</span>, <span style="color:#a6e22e">min</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> Math.<span style="color:#a6e22e">max</span>(<span style="color:#a6e22e">count</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>, <span style="color:#a6e22e">min</span>)
+}
+</code></pre></div><h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min">Math.min() – MDN</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max">Math.max() – MDN</a></li>
+</ul>
+
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://notes.jsstrn.me/categories/">developer</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/javascript">#javascript</a></li>
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/kata">#kata</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+        
+    <div class="pagination post-pagination">
+        <div class="left pagination-item ">
+            
+                <a href="/notes/raspi-schedule/">Schedule a Cron job on Raspberry Pi</a>
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/notes/raspi-ssh/">SSH into a Raspberry Pi</a>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+        <div class="copyright">
+            <p>© Jesstern Rays | 2020</p>
+        </div>
+
+        
+
+    
+
+
+
+    </div>
+</footer>
+        
+    </div>
+</body>
+</html>

@@ -113,17 +113,17 @@
             <p>Move commits in C to staged</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">A - B - C <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span>
 git reset --soft B
-A - B <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span> 
+A - B <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span>
 C is in staged
 </code></pre></div><p>Moved commits in C to unstaged</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">A - B - C <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span>
 git reset B // same as doing git reset --mixed
-A - B <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span> 
+A - B <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span>
 C is in unstaged
 </code></pre></div><p>Remove commits in C along with any other unstaged changes. Exercise caution when doing this</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">A - B - C <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span>
 git reset --hard B
-A - B <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span> 
+A - B <span style="color:#f92672">(</span>master<span style="color:#f92672">)</span>
 C has been discarded
 </code></pre></div>
         </div>
@@ -138,7 +138,7 @@ C has been discarded
         
             <ul class="post-categories">
                 
-                    <li><a href="https://notes.jsstrn.me/categories/">development</a></li>
+                    <li><a href="https://notes.jsstrn.me/categories/">developer</a></li>
                 
             </ul>
             

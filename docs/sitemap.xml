@@ -63,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://notes.jsstrn.me/notes/my-new-note/</loc>
+    <loc>https://notes.jsstrn.me/notes/cli-guidelines/</loc>
   </url>
   
   <url>
@@ -80,6 +80,10 @@
   
   <url>
     <loc>https://notes.jsstrn.me/notes/project-daily-dad-jokes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/categories/developer/</loc>
   </url>
   
   <url>
@@ -147,6 +151,10 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/tags/kata/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/tags/keyboard/</loc>
   </url>
   
@@ -187,6 +195,14 @@
   </url>
   
   <url>
+    <loc>https://notes.jsstrn.me/tags/react/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/react-query/</loc>
+  </url>
+  
+  <url>
     <loc>https://notes.jsstrn.me/notes/raspi-restart/</loc>
   </url>
   
@@ -212,6 +228,10 @@
   
   <url>
     <loc>https://notes.jsstrn.me/tags/serverless/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes.jsstrn.me/notes/js-math-min-max/</loc>
   </url>
   
   <url>

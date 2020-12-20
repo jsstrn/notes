@@ -12,10 +12,10 @@
     
     <item>
       <title>Command Line Interface Guidelines</title>
-      <link>https://notes.jsstrn.me/notes/my-new-note/</link>
+      <link>https://notes.jsstrn.me/notes/cli-guidelines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://notes.jsstrn.me/notes/my-new-note/</guid>
+      <guid>https://notes.jsstrn.me/notes/cli-guidelines/</guid>
       <description>&lt;p&gt;Guidelines for building better command-line programs.&lt;/p&gt;
 &lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://clig.dev/&#34;&gt;Command Line Interface Guidelines&lt;/a&gt;&lt;/p&gt;
