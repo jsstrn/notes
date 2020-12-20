@@ -1,7 +1,7 @@
 ---
 title: "Daily dad jokes on Telegram"
 summary: "How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily"
-categories: ["development", "projects"]
+categories: ["developer", "projects"]
 tags: ["node.js", "serverless", "telegram", "aws",]
 ---
 
