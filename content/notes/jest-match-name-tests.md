@@ -1,11 +1,11 @@
 ---
 title: "Run tests that match a describe block"
 summary: "How to run tests that only match the name in the describe block"
-categories: ["development"]
+categories: ["developer"]
 tags: ["jest", "javascript"]
 ---
 
-Very often I come across a situation where I'd like to only run a certain subset of tests in a describe block, usually when I'm trying to debug some code. 
+Very often I come across a situation where I'd like to only run a certain subset of tests in a describe block, usually when I'm trying to debug some code.
 
 If the describe block you want to run contains the word "Fizz Buzz"
 
@@ -25,6 +25,6 @@ Or simply use the alias `-t` instead
 jest -t 'Fizz Buzz'
 ```
 
-## Reference 
+## Reference
 
 - [Jest CLI documentation](https://jestjs.io/docs/en/cli.html#)

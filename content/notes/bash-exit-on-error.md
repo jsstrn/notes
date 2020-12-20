@@ -1,7 +1,7 @@
 ---
 title: "Exit a Bash script on error"
 summary: "How to exit a Bash script when any command fails"
-categories: ["development"]
+categories: ["developer"]
 tags: ["bash"]
 ---
 

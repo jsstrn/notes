@@ -1,7 +1,7 @@
 ---
 title: "Dig – DNS lookup utility"
 summary: "How to check your domain's DNS configurations"
-categories: ["development"]
+categories: ["developer"]
 tags: ["dns", "dig"]
 ---
 

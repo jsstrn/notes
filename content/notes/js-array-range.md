@@ -1,7 +1,7 @@
 ---
 title: "Create an array from range of numbers"
 summary: "How to create an array of elements based on a range of numbers in JavaScript"
-categories: ["development"]
+categories: ["developer"]
 tags: ["javascript"]
 ---
 
@@ -34,12 +34,12 @@ const numbers = Array.from({length: 10}, (_, i) => i)
 // [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
 ```
 
-`Array.from()` takes an array-like object as its first argument and a map function that will be applied to each element. In this case, we pass an object with a `length` property and then we take just return the index from the map function. 
+`Array.from()` takes an array-like object as its first argument and a map function that will be applied to each element. In this case, we pass an object with a `length` property and then we take just return the index from the map function.
 
 If we wanted to start our list at 1 instead, then we can do this
 
 ```js
-Array.from({length: 10}, (_, i) => i + 1) 
+Array.from({length: 10}, (_, i) => i + 1)
 // [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 ```
 

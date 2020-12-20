@@ -1,7 +1,7 @@
 ---
 title: "Command Line Interface Guidelines"
 summary: "Command Line Interface Guidelines"
-categories: ["development"]
+categories: ["developer"]
 tags: ["cli", "guidelines", "resource"]
 ---
 

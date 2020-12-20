@@ -1,7 +1,7 @@
 ---
 title: "View changes before committing"
 summary: "Review code changes with <code>--patch</code> before staging and committing"
-categories: ["development"]
+categories: ["developer"]
 tags: ["git"]
 ---
 

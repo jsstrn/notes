@@ -1,11 +1,11 @@
 ---
 title: "Merging arrays in JavaScript"
 summary: "How to merge two or more arrays in JavaScript"
-categories: ["development"]
+categories: ["developer"]
 tags: ["javascript"]
 ---
 
-Let's say we have these two arrays that we would like to merge together. 
+Let's say we have these two arrays that we would like to merge together.
 
 ```js
 const a = [
@@ -48,4 +48,4 @@ This results in an array with two entries for 'cherry'
 ]
 ```
 
-⚠️ One important thing to keep in mind when merging two arrays in JavaScript is that there is no straightforward way to do so without duplicates. I have literally seen production code making this sort of mistake. 
+⚠️ One important thing to keep in mind when merging two arrays in JavaScript is that there is no straightforward way to do so without duplicates. I have literally seen production code making this sort of mistake.

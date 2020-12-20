@@ -1,7 +1,7 @@
 ---
 title: "Watch for file changes as you run your tests"
 summary: "How to run your tests as your files change in Jest"
-categories: ["development"]
+categories: ["developer"]
 tags: ["jest", "javascript"]
 ---
 
@@ -11,7 +11,7 @@ To watch for file changes and **only** run tests related to changed files. This 
 jest --watch
 ```
 
-To watch for file changes and run **all** tests. This does not require that your project be a Git repository. 
+To watch for file changes and run **all** tests. This does not require that your project be a Git repository.
 
 ```bash
 jest --watchAll
@@ -28,6 +28,6 @@ We often add this to our npm scripts
 }
 ```
 
-## Reference 
+## Reference
 
 - [Jest CLI documentation](https://jestjs.io/docs/en/cli.html#)

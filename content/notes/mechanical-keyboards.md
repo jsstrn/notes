@@ -1,7 +1,7 @@
 ---
 title: "Which mechanical keyboard switch should I choose?"
 summary: "Choosing between the different types of mechanical keyboard switches?"
-categories: ["development"]
+categories: ["developer"]
 tags: ["keyboard", "mechanical keyboard", "cherry mx"]
 ---
 

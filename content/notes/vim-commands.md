@@ -1,7 +1,7 @@
 ---
 title: "Useful Vim commands"
 summary: "A list of the most commonly used Vim commands"
-categories: ["development"]
+categories: ["developer"]
 tags: ["vim"]
 ---
 

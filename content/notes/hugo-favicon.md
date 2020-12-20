@@ -1,7 +1,7 @@
 ---
 title: "Add a favicon to a Hugo site"
 summary: "How to add a favicon to a Hugo site"
-categories: ["development"]
+categories: ["developer"]
 tags: ["hugo"]
 ---
 

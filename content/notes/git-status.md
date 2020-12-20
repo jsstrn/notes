@@ -1,7 +1,7 @@
 ---
 title: "Check the status of a Git repository"
 summary: "How to check the status of a Git repository"
-categories: ["development"]
+categories: ["developer"]
 tags: ["git"]
 ---
 

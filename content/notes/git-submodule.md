@@ -1,7 +1,7 @@
 ---
 title: "Clone a repository with submodules"
 summary: "How to clone a repository with submodules"
-categories: ["development"]
+categories: ["developer"]
 tags: ["git"]
 ---
 

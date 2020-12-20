@@ -1,7 +1,7 @@
 ---
 title: "View public Telegram channels outside of Telegram"
 summary: "Make any public Telegram channel viewable outside of Telegram"
-categories: ["development"]
+categories: ["developer"]
 tags: ["telegram"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Favicon"
 summary: "Find or create a suitable favicon for your site"
-categories: ["development"]
+categories: ["developer"]
 tags: ["favicon", "resource"]
 ---
 

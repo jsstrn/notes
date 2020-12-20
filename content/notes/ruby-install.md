@@ -1,13 +1,13 @@
 ---
 title: "Install Ruby on macOS"
 summary: "How to install Ruby on macOS with Homebrew and rbenv"
-categories: ["development"]
+categories: ["developer"]
 tags: ["ruby", "rbenv"]
 ---
 
-macOS comes with its own version of Ruby which will not allow you to install Gems. To start developing in Ruby, we first have to install our own version of Ruby. 
+macOS comes with its own version of Ruby which will not allow you to install Gems. To start developing in Ruby, we first have to install our own version of Ruby.
 
-It is generally recommended to use a version manager for Ruby, like `rbenv` to manage different versions of Ruby in various projects. 
+It is generally recommended to use a version manager for Ruby, like `rbenv` to manage different versions of Ruby in various projects.
 
 ```bash
 brew install rbenv
