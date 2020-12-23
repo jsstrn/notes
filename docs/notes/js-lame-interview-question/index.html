@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+
+    
+
+<html lang="en-us" data-theme="dark">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Beware the lame JavaScript interview question - notes &gt; jsstrn.me</title>
+<meta name="description" content="Jesstern&#39;s notes">
+
+<link rel="icon" type="image/x-icon" href="https://notes.jsstrn.me/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://notes.jsstrn.me/favicon.png">
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="https://notes.jsstrn.me/css/style.8c8ab81054d9f1ef6cc94f6ba5a3fd5de347f1b05b946257d9efa94c3f01a72f.css" integrity="sha256-jIq4EFTZ8e9syU9rpaP9XeNH8bBblGJX2e&#43;pTD8Bpy8=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+    
+        <link rel="stylesheet" href="https://notes.jsstrn.me/css/style.5977ade662c1073382ff634a1dfeb77425c2dad873f476ba535deacaa0e42fe0.css" integrity="sha256-WXet5mLBBzOC/2NKHf63dCXC2thz9Ha6U13qyqDkL&#43;A=">
+    
+
+
+
+
+
+<meta property="og:title" content="Beware the lame JavaScript interview question" />
+<meta property="og:description" content="Here&rsquo;s an example of a lame JavaScript interview question" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://notes.jsstrn.me/notes/js-lame-interview-question/" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Beware the lame JavaScript interview question"/>
+<meta name="twitter:description" content="Here&rsquo;s an example of a lame JavaScript interview question"/>
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <h1 class="site-title">
+    <a href="/">notes &gt; jsstrn.me</a>
+</h1>
+
+    <nav>
+        
+        
+        <a class="" href="https://notes.jsstrn.me/tags/" title="">tags</a>
+        
+        <a class="" href="https://notes.jsstrn.me/categories/" title="">categories</a>
+        
+        <a class="" href="https://notes.jsstrn.me/notes/" title="">all</a>
+        
+        <a class="" href="https://notes.jsstrn.me/about/" title="">about</a>
+        
+    </nav>
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+    
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">Beware the lame JavaScript interview question</h1>
+        </header>
+        <div class="content">
+            <p>This <a href="https://www.interviewcake.com/question/javascript/js-scope?">question</a> is from <a href="https://www.interviewcake.com/">Interview Cake</a> which delivers a problem each week to your inbox.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;outside&#39;</span>
+
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">displayText</span>() {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">text</span>)
+  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;inside&#39;</span>
+}
+
+<span style="color:#a6e22e">displayText</span>()
+</code></pre></div><p>What will be output on to the console? It&rsquo;s not &ldquo;outside&rdquo;. It&rsquo;s not &ldquo;inside&rdquo; either. It&rsquo;s &ldquo;undefined&rdquo; because of the hoisted variable.</p>
+<p>First we notice that the question uses <code>var</code> instead of <code>const</code> or <code>let</code> which may be an indication that this is a trick question. The question is trying to test your understanding on variable hoisting when using the <code>var</code> keyword, but we should not be using <code>var</code> in modern JavaScript. In fact, if we had used <code>const</code> or <code>let</code> in this example, we would get an error – <code>Uncaught ReferenceError: can't access lexical declaration 'text' before initialization</code>.</p>
+<p>I would argue that this is not a good type of interview question. Being able to answer this question just tests how good of a compiler you are. Humans are not machines.</p>
+<p>The real issue with this code is that it is poorly written. All too often I see companies with interviews like these and then they wonder why their programmers write so poorly. A better question might be to present the above code and ask them if they see a problem with the code and then to refactor it so that there&rsquo;s no ambiguity. This would test the candidate&rsquo;s ability to identify bad code and to also refactor them.</p>
+
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://notes.jsstrn.me/categories/">developer</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://notes.jsstrn.me/tags/interview-questions">#interview questions</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+        
+    <div class="pagination post-pagination">
+        <div class="left pagination-item ">
+            
+                <a href="/notes/project-bbc-earth/">BBC Earth videos on Telegram</a>
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/notes/raspi-purchase/">Buying a Raspberry Pi</a>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+        <div class="copyright">
+            <p>© Jesstern Rays | 2020</p>
+        </div>
+
+        
+
+    
+
+
+
+    </div>
+</footer>
+        
+    </div>
+</body>
+</html>

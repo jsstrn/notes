@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>interview questions on notes &gt; jsstrn.me</title>
+    <link>https://notes.jsstrn.me/tags/interview-questions/</link>
+    <description>notes &gt; jsstrn.me (interview questions)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="https://notes.jsstrn.me/tags/interview-questions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Beware the lame JavaScript interview question</title>
+      <link>https://notes.jsstrn.me/notes/js-lame-interview-question/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/js-lame-interview-question/</guid>
+      <description>&lt;p&gt;This &lt;a href=&#34;https://www.interviewcake.com/question/javascript/js-scope?&#34;&gt;question&lt;/a&gt; is from &lt;a href=&#34;https://www.interviewcake.com/&#34;&gt;Interview Cake&lt;/a&gt; which delivers a problem each week to your inbox.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;text&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;outside&amp;#39;&lt;/span&gt;
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;displayText&lt;/span&gt;() {
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;text&lt;/span&gt;)
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;text&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;inside&amp;#39;&lt;/span&gt;
+}
+
+&lt;span style=&#34;color:#a6e22e&#34;&gt;displayText&lt;/span&gt;()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;What will be output on to the console? It&amp;rsquo;s not &amp;ldquo;outside&amp;rdquo;. It&amp;rsquo;s not &amp;ldquo;inside&amp;rdquo; either. It&amp;rsquo;s &amp;ldquo;undefined&amp;rdquo; because of the hoisted variable.&lt;/p&gt;
+&lt;p&gt;First we notice that the question uses &lt;code&gt;var&lt;/code&gt; instead of &lt;code&gt;const&lt;/code&gt; or &lt;code&gt;let&lt;/code&gt; which may be an indication that this is a trick question. The question is trying to test your understanding on variable hoisting when using the &lt;code&gt;var&lt;/code&gt; keyword, but we should not be using &lt;code&gt;var&lt;/code&gt; in modern JavaScript. In fact, if we had used &lt;code&gt;const&lt;/code&gt; or &lt;code&gt;let&lt;/code&gt; in this example, we would get an error – &lt;code&gt;Uncaught ReferenceError: can&#39;t access lexical declaration &#39;text&#39; before initialization&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I would argue that this is not a good type of interview question. Being able to answer this question just tests how good of a compiler you are. Humans are not machines.&lt;/p&gt;
+&lt;p&gt;The real issue with this code is that it is poorly written. All too often I see companies with interviews like these and then they wonder why their programmers write so poorly. A better question might be to present the above code and ask them if they see a problem with the code and then to refactor it so that there&amp;rsquo;s no ambiguity. This would test the candidate&amp;rsquo;s ability to identify bad code and to also refactor them.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
