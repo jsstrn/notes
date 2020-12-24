@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>miscellaneous on notes &gt; jsstrn.me</title>
+    <link>https://notes.jsstrn.me/categories/miscellaneous/</link>
+    <description>notes &gt; jsstrn.me (miscellaneous)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="https://notes.jsstrn.me/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bike shedding or Parkinson’s Law of Triviality</title>
+      <link>https://notes.jsstrn.me/notes/parkinson-law-of-triviality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/parkinson-law-of-triviality/</guid>
+      <description>&lt;p&gt;Bike shedding also known as Parkinson’s Law of Triviality occurs when members of a team give disproportionate weight to trivial issues when bigger issues are up for discussion.&lt;/p&gt;
+&lt;p&gt;The term bike shedding came about through Parkinson&amp;rsquo;s fictional story of a committee who had to approve plans for a nuclear power plant, but preferred to discuss about a bike shed instead because the problem was easier to grasp.&lt;/p&gt;
+&lt;p&gt;Not to be confused with &lt;a href=&#34;https://notes.jsstrn.me/notes/parkinson-law&#34;&gt;Parkinson&amp;rsquo;s Law&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Law_of_triviality&#34;&gt;Law of triviality&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Parkinson’s Law</title>
+      <link>https://notes.jsstrn.me/notes/parkinson-law/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/parkinson-law/</guid>
+      <description>&lt;p&gt;Parkinson’s Law states that &amp;ldquo;work expands to fill the time available for its completion.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Not to be confused with &lt;a href=&#34;https://notes.jsstrn.me/notes/parkinson-law-of-triviality&#34;&gt;Parkinson&amp;rsquo;s Law of Triviality&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Parkinson%27s_law&#34;&gt;Parkinson’s Law&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Peter Principle</title>
+      <link>https://notes.jsstrn.me/notes/peter-principle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/peter-principle/</guid>
+      <description>&lt;p&gt;Peter Principle states that people, in a company, are promoted to their “level of incompetence.” This is because an employee is promoted based on the success of their previous job until they reach a level at which they are no longer competent.&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Peter_principle&#34;&gt;Peter Principle&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

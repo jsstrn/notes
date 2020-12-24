@@ -109,6 +109,22 @@ git config --global alias.uncommit &lt;span style=&#34;color:#e6db74&#34;&gt;&am
     </item>
     
     <item>
+      <title>Bike shedding or Parkinson’s Law of Triviality</title>
+      <link>https://notes.jsstrn.me/notes/parkinson-law-of-triviality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/parkinson-law-of-triviality/</guid>
+      <description>&lt;p&gt;Bike shedding also known as Parkinson’s Law of Triviality occurs when members of a team give disproportionate weight to trivial issues when bigger issues are up for discussion.&lt;/p&gt;
+&lt;p&gt;The term bike shedding came about through Parkinson&amp;rsquo;s fictional story of a committee who had to approve plans for a nuclear power plant, but preferred to discuss about a bike shed instead because the problem was easier to grasp.&lt;/p&gt;
+&lt;p&gt;Not to be confused with &lt;a href=&#34;https://notes.jsstrn.me/notes/parkinson-law&#34;&gt;Parkinson&amp;rsquo;s Law&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Law_of_triviality&#34;&gt;Law of triviality&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Buying a Raspberry Pi</title>
       <link>https://notes.jsstrn.me/notes/raspi-purchase/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -360,6 +376,44 @@ Array.&lt;span style=&#34;color:#a6e22e&#34;&gt;from&lt;/span&gt;({&lt;span styl
   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;fig&amp;#39;&lt;/span&gt;,
 ]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;⚠️ One important thing to keep in mind when merging two arrays in JavaScript is that there is no straightforward way to do so without duplicates. I have literally seen production code making this sort of mistake.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Navigate phone menus with commas</title>
+      <link>https://notes.jsstrn.me/notes/phone-commas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/phone-commas/</guid>
+      <description>&lt;p&gt;Adding commas to stored telephone numbers in your contacts act as pauses which allow you to navigate complicated phone menus.&lt;/p&gt;
+&lt;p&gt;For instance, if a phone number requires that you select &lt;code&gt;1&lt;/code&gt; for English then you can simply save their number as follows &lt;code&gt;+65 9876 5432,1&lt;/code&gt; to your contacts. Now when you dial that number it will pause and then dial &lt;code&gt;1&lt;/code&gt; for you. If you require a prolonged pause then simply add more commas, like so &lt;code&gt;+65 9876 5432,,,1&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Parkinson’s Law</title>
+      <link>https://notes.jsstrn.me/notes/parkinson-law/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/parkinson-law/</guid>
+      <description>&lt;p&gt;Parkinson’s Law states that &amp;ldquo;work expands to fill the time available for its completion.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Not to be confused with &lt;a href=&#34;https://notes.jsstrn.me/notes/parkinson-law-of-triviality&#34;&gt;Parkinson&amp;rsquo;s Law of Triviality&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Parkinson%27s_law&#34;&gt;Parkinson’s Law&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Peter Principle</title>
+      <link>https://notes.jsstrn.me/notes/peter-principle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.jsstrn.me/notes/peter-principle/</guid>
+      <description>&lt;p&gt;Peter Principle states that people, in a company, are promoted to their “level of incompetence.” This is because an employee is promoted based on the success of their previous job until they reach a level at which they are no longer competent.&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Peter_principle&#34;&gt;Peter Principle&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
